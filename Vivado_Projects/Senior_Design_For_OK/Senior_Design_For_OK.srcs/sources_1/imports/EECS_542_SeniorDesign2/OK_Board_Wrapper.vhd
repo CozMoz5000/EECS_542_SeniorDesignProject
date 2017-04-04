@@ -23,9 +23,36 @@ ARCHITECTURE Structural OF OK_BoardWrapper IS
     Signal ok1 : STD_LOGIC_VECTOR(30 downto 0);
 	Signal ok2 : STD_LOGIC_VECTOR(16 downto 0);
 	Signal ok2s : STD_LOGIC_VECTOR(17*5-1 downto 0);
+	
+	--User Signals
+	Signal okPipeReadRequest : STD_LOGIC;
+	Signal okPipe_DataForPC : STD_LOGIC_VECTOR(15 downto 0);
+	Signal okWireIn_ControlSignals : STD_LOGIC_VECTOR(15 downto 0);
+	Signal LA_Test_Signals : STD_LOGIC_VECTOR(3 downto 0);
+	
+	--Control Signals
+	Signal LA_Reset : STD_LOGIC;   
+	
+	--Component Decalrations 
+	Component logic_analyser is
+        Generic (   
+            n_of_inputs : integer := 4;
+            b_width : integer := 16;
+            fifo_mem_size : integer := 256);
+    
+        Port ( 
+            rst : in std_logic;
+            clk : in std_logic;
+            read_en : in std_logic;
+            data_in : in std_logic_vector(n_of_inputs-1 downto 0);
+            data_out : out std_logic_vector(b_width*n_of_inputs-1 downto 0));
+    End Component;
 BEGIN
     --Required as per OK Firmware
     HI_MuxSel <= '0';
+    
+    --Map Wire In Control Signals to more Readable Names
+    LA_Reset <= okWireIn_ControlSignals(0);
     
     --Map a internal signal to the actual LED's on the board
     LED(7) <= '0' when (LED_Internal(7) = '1') else 'Z';
@@ -42,6 +69,22 @@ BEGIN
     okWO : okWireOR generic map (N=>5) port map (ok2=>ok2, ok2s=>ok2s);
     
     --OK HDL Modules Declarations
+    --Pipe for data transfer back to PC (Address: 0xA5)
+    okPipeToPC : okPipeOut port map (ok1 => ok1, ok2 => ok2, ep_addr => x"A5", ep_datain => okPipe_DataForPC, ep_read => okPipeReadRequest);
+    
+    --Wire In for Control Signals (Address: 0x05)
+    --Bit 0: LA Reset Signal (Active High)
+    okControlSignalsFromPC : okWireIn port map (ok1 => ok1, ep_addr => x"05", ep_dataout => okWireIn_ControlSignals);
+    
+    --Main Senior Design Module Initalization
+    Logic_Analyzer : logic_analyser generic map (n_of_inputs => 4, b_width => 4, fifo_mem_size => 1024)
+                                    port map (  rst => LA_Reset,
+                                                clk => CLK,
+                                                read_en => okPipeReadRequest,
+                                                data_in => LA_Test_Signals,
+                                                data_out => okPipe_DataForPC);
+                                                
+    --LA Test Unit Initalization
     
 END Structural;
 ------------------------------------------------

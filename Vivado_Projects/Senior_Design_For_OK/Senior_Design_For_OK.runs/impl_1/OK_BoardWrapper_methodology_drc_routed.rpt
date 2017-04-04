@@ -1,0 +1,188 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Tue Apr 04 14:00:43 2017
+| Host         : CozLaptop-Win10 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file OK_BoardWrapper_methodology_drc_routed.rpt -rpx OK_BoardWrapper_methodology_drc_routed.rpx
+| Design       : OK_BoardWrapper
+| Device       : xc7a15tftg256-1
+| Speed File   : -1
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 22
++-----------+----------+---------------------------------------------------+------------+
+| Rule      | Severity | Description                                       | Violations |
++-----------+----------+---------------------------------------------------+------------+
+| TIMING-17 | Warning  | Non-clocked sequential cell                       | 1          |
+| TIMING-18 | Warning  | Missing input or output delay                     | 1          |
+| XDCH-1    | Warning  | Hold option missing in multicycle path constraint | 2          |
+| XDCH-2    | Warning  | Same min and max delay values on IO port          | 18         |
++-----------+----------+---------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin okHI/core0/core0/a0/d0/dna0/CLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on HI_AA relative to clock(s) VIRTUAL_mmcm0_clk0 okHostClk 
+Related violations: <none>
+
+XDCH-1#1 Warning
+Hold option missing in multicycle path constraint  
+A multicycle constraint has been set to override the setup relationship, but no multicycle constraint has been defined to change the hold relationship. As a result, the default hold for those paths is derived from the setup and may not be evaluated as expected.
+set_multicycle_path -setup -from [get_ports {HI_InOut[*]}] 2
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 55)
+Related violations: <none>
+
+XDCH-1#2 Warning
+Hold option missing in multicycle path constraint  
+A multicycle constraint has been set to override the setup relationship, but no multicycle constraint has been defined to change the hold relationship. As a result, the default hold for those paths is derived from the setup and may not be evaluated as expected.
+set_multicycle_path -setup -from [get_ports {HI_In[*]}] 2
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 59)
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same output delay of 8.900 ns has been defined on port 'HI_Out[0]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 8.900 [get_ports {HI_Out[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 61)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same output delay of 8.900 ns has been defined on port 'HI_Out[1]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 8.900 [get_ports {HI_Out[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 61)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[0]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[10]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[11]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[12]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[13]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[14]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#9 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[15]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#10 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[1]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#11 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[2]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#12 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[3]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#13 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[4]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#14 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[5]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#15 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[6]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#16 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[7]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#17 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[8]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+XDCH-2#18 Warning
+Same min and max delay values on IO port  
+The same output delay of 9.200 ns has been defined on port 'HI_InOut[9]' relative to clock okHostClk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks okHostClk] -add_delay 9.200 [get_ports {HI_InOut[*]}]
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc (Line: 63)
+Related violations: <none>
+
+
