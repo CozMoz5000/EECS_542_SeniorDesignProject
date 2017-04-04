@@ -28,7 +28,11 @@ ARCHITECTURE Structural OF OK_BoardWrapper IS
 	Signal okPipeReadRequest : STD_LOGIC;
 	Signal okPipe_DataForPC : STD_LOGIC_VECTOR(15 downto 0);
 	Signal okWireIn_ControlSignals : STD_LOGIC_VECTOR(15 downto 0);
+	Signal okWireOut_StatusSignals : STD_LOGIC_VECTOR(15 downto 0);
+	Signal okTriggerIn_StartSignal : STD_LOGIC_VECTOR(15 downto 0);
 	Signal LA_Test_Signals : STD_LOGIC_VECTOR(3 downto 0);
+	Signal LA_Sampling_Clock_Select : STD_LOGIC_VECTOR(2 downto 0);
+	Signal LA_StartSampling : STD_LOGIC;
 	
 	--Control Signals
 	Signal LA_Reset : STD_LOGIC;   
@@ -53,6 +57,8 @@ BEGIN
     
     --Map Wire In Control Signals to more Readable Names
     LA_Reset <= okWireIn_ControlSignals(0);
+    LA_Sampling_Clock_Select <= okWireIn_ControlSignals(3 downto 1);
+    LA_StartSampling <= okTriggerIn_StartSignal(0);
     
     --Map a internal signal to the actual LED's on the board
     LED(7) <= '0' when (LED_Internal(7) = '1') else 'Z';
@@ -74,7 +80,17 @@ BEGIN
     
     --Wire In for Control Signals (Address: 0x05)
     --Bit 0: LA Reset Signal (Active High)
+    --Bit 1-3: Clock Rate Select Signal (0: 100M, 1: 50M, 2: 25M, 3: 10M, 4: 5M, 6: 1M, 7: 500K)
     okControlSignalsFromPC : okWireIn port map (ok1 => ok1, ep_addr => x"05", ep_dataout => okWireIn_ControlSignals);
+    
+    --Trigger In to start the Sampling (Address: 0x55)
+    --Bit 0: Start Sampling
+    okTriggerForSampling : okTriggerIn port map (ok1 => ok1, ep_addr => x"55", ep_clk => CLK, ep_trigger => okTriggerIn_StartSignal);
+    
+    --Wire Out for Status Signals (Address: 0x25)
+    --Bit 0: Sampling Completed
+    --Bit 1-X: Number of Elements in FIFO
+    okStatusSignalsToPC : okWireOut port map (ok1 => ok1, ok2 => ok2, ep_addr => x"25", ep_datain => okWireOut_StatusSignals);
     
     --Main Senior Design Module Initalization
     Logic_Analyzer : logic_analyser generic map (n_of_inputs => 4, b_width => 4, fifo_mem_size => 1024)
