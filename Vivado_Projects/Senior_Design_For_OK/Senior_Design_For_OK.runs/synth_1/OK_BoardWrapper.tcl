@@ -19,9 +19,10 @@ read_verilog -library xil_defaultlib {
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okCoreHarness.v
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireIn.v
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okPipeOut.v
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireOut.v
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okTriggerIn.v
 }
 read_vhdl -library xil_defaultlib {
-  D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/read_synchroniser.vhd
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/clk_divider.vhd

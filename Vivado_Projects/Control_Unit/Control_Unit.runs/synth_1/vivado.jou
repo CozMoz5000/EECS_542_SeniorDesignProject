@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 14 09:33:48 2017
+# Process ID: 12788
+# Current directory: D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Control_Unit/Control_Unit.runs/synth_1
+# Command line: vivado.exe -log EECS_542_Clock_Block.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source EECS_542_Clock_Block.tcl
+# Log file: D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Control_Unit/Control_Unit.runs/synth_1/EECS_542_Clock_Block.vds
+# Journal file: D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Control_Unit/Control_Unit.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source EECS_542_Clock_Block.tcl -notrace

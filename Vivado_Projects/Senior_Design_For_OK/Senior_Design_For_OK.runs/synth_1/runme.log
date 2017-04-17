@@ -14,12 +14,12 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a15t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a15t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 864 
+INFO: Helper process launched with PID 16960 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 285.820 ; gain = 75.500
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 286.543 ; gain = 77.102
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'OK_BoardWrapper' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:19]
-INFO: [Synth 8-3491] module 'okHost' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:16' bound to instance 'okHI' of component 'okHost' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'OK_BoardWrapper' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:20]
+INFO: [Synth 8-3491] module 'okHost' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:16' bound to instance 'okHI' of component 'okHost' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:93]
 INFO: [Synth 8-638] synthesizing module 'okHost' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:28]
 INFO: [Synth 8-113] binding component instance 'hi_in0_bufg' to cell 'IBUFG' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:76]
 INFO: [Synth 8-113] binding component instance 'mmcm0' to cell 'MMCME2_BASE' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:78]
@@ -1580,10 +1580,10 @@ INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized258' (19#1) [D:
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized73' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized73' (19#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'okHost' (22#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:28]
-INFO: [Synth 8-3491] module 'okWireOR' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:151' bound to instance 'okWO' of component 'okWireOR' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
+INFO: [Synth 8-3491] module 'okWireOR' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:151' bound to instance 'okWO' of component 'okWireOR' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
 INFO: [Synth 8-638] synthesizing module 'okWireOR' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:160]
 INFO: [Synth 8-256] done synthesizing module 'okWireOR' (23#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:160]
-INFO: [Synth 8-3491] module 'okPipeOut' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okPipeOut.v:18' bound to instance 'okPipeToPC' of component 'okPipeOut' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
+INFO: [Synth 8-3491] module 'okPipeOut' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okPipeOut.v:18' bound to instance 'okPipeToPC' of component 'okPipeOut' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized74' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized74' (23#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized75' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
@@ -1626,7 +1626,7 @@ INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized90' [D:/Xilinx/Vivad
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized90' (23#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized91' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized91' (23#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
-INFO: [Synth 8-3491] module 'okWireIn' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireIn.v:18' bound to instance 'okControlSignalsFromPC' of component 'okWireIn' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:77]
+INFO: [Synth 8-3491] module 'okWireIn' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireIn.v:18' bound to instance 'okControlSignalsFromPC' of component 'okWireIn' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:103]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized92' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized92' (24#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized262' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
@@ -1635,31 +1635,238 @@ INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized263' [D:/Xilinx/Viva
 INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized263' (24#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized93' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized93' (24#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
-INFO: [Synth 8-3491] module 'logic_analyser' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:6' bound to instance 'Logic_Analyzer' of component 'logic_analyser' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:80]
-INFO: [Synth 8-638] synthesizing module 'logic_analyser' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:22]
-INFO: [Synth 8-3491] module 'read_synchroniser' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/read_synchroniser.vhd:10' bound to instance 'u_read_sync' of component 'read_synchroniser' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:84]
-INFO: [Synth 8-638] synthesizing module 'read_synchroniser' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/read_synchroniser.vhd:19]
-INFO: [Synth 8-256] done synthesizing module 'read_synchroniser' (26#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/read_synchroniser.vhd:19]
-INFO: [Synth 8-3491] module 'clk_generator' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/clk_divider.vhd:6' bound to instance 'u_clk_gen' of component 'clk_generator' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:93]
-INFO: [Synth 8-638] synthesizing module 'clk_generator' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/clk_divider.vhd:17]
-INFO: [Synth 8-256] done synthesizing module 'clk_generator' (27#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/clk_divider.vhd:17]
-WARNING: [Synth 8-549] port width mismatch for port 'off_time_factor': port width = 5, actual width = 32 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:62]
-INFO: [Synth 8-3491] module 'input_buffer' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:7' bound to instance 'u_buffer' of component 'Input_Buffer' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:104]
+INFO: [Synth 8-3491] module 'okTriggerIn' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okTriggerIn.v:18' bound to instance 'okTriggerForSampling' of component 'okTriggerIn' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized20' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized20' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized21' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized21' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized22' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized22' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized23' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized23' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized24' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized24' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized25' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized25' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized26' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized26' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized27' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized27' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized28' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized28' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized29' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized29' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized30' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized30' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized31' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized31' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized32' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized32' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized33' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized33' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized34' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized34' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized35' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized35' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized106' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized106' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized107' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized107' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized108' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized108' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized109' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized109' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized110' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized110' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized111' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized111' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized112' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized112' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized113' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized113' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized114' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized114' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized115' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized115' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized116' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized116' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized117' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized117' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized118' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized118' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized119' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized119' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized120' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized120' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized121' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized121' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized36' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized36' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized37' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized37' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized38' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized38' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized39' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized39' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized40' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized40' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized41' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized41' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized94' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized94' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized42' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized42' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized264' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized264' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized265' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized265' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized95' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized95' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized43' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized43' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized44' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized44' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized45' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized45' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized46' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized46' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized47' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized47' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized48' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized48' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized49' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized49' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized50' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized50' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized51' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized51' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized122' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized122' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized123' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized123' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized124' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized124' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized125' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized125' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized126' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized126' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized127' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized127' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized128' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized128' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized129' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized129' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized130' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized130' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized131' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized131' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized132' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized132' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized133' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized133' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized134' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized134' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized135' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized135' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized136' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized136' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized137' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized137' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized138' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized138' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized139' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized139' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized140' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized140' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized141' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized141' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized142' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized142' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized143' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized143' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized144' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized144' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized145' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized145' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized146' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized146' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized147' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized147' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized148' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized148' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized149' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized149' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized150' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized150' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized151' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized151' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized152' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized152' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized153' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized153' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+INFO: [Synth 8-3491] module 'okWireOut' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireOut.v:18' bound to instance 'okStatusSignalsToPC' of component 'okWireOut' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized96' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized96' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized97' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized97' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized98' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized98' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized99' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized99' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized100' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized100' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized101' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized101' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized102' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized102' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized266' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized266' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized267' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized267' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized103' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized103' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized104' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized104' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized105' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized105' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized106' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized106' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized107' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized107' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized108' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized108' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized109' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized109' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized110' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized110' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized111' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized111' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized112' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized112' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-3491] module 'logic_analyser' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:6' bound to instance 'Logic_Analyzer' of component 'logic_analyser' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'logic_analyser' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:26]
+INFO: [Synth 8-3491] module 'write_clk_generator' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/clk_divider.vhd:8' bound to instance 'u_clk_gen' of component 'write_clk_generator' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'write_clk_generator' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/clk_divider.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'write_clk_generator' (28#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/clk_divider.vhd:19]
+WARNING: [Synth 8-549] port width mismatch for port 'off_time_factor': port width = 5, actual width = 32 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:68]
+INFO: [Synth 8-3491] module 'input_buffer' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:7' bound to instance 'u_buffer' of component 'Input_Buffer' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:112]
 INFO: [Synth 8-638] synthesizing module 'input_buffer' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:25]
 WARNING: [Synth 8-614] signal 'buffer_en' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:37]
 WARNING: [Synth 8-614] signal 'zero_buffer' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:37]
 WARNING: [Synth 8-614] signal 'buffer_en' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:53]
-INFO: [Synth 8-256] done synthesizing module 'input_buffer' (28#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:25]
-INFO: [Synth 8-3491] module 'FIFO' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:5' bound to instance 'u_fifo' of component 'FIFO' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:120]
-INFO: [Synth 8-638] synthesizing module 'FIFO' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:20]
-WARNING: [Synth 8-614] signal 'zero_data' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:37]
-WARNING: [Synth 8-614] signal 'fifo_mem' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:48]
-INFO: [Synth 8-256] done synthesizing module 'FIFO' (29#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:20]
-INFO: [Synth 8-256] done synthesizing module 'logic_analyser' (30#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:22]
-WARNING: [Synth 8-3848] Net LED_Internal in module/entity OK_BoardWrapper does not have driver. [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:21]
-WARNING: [Synth 8-3848] Net ok2s in module/entity OK_BoardWrapper does not have driver. [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:25]
-WARNING: [Synth 8-3848] Net LA_Test_Signals in module/entity OK_BoardWrapper does not have driver. [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:31]
-INFO: [Synth 8-256] done synthesizing module 'OK_BoardWrapper' (31#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'input_buffer' (29#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:25]
+INFO: [Synth 8-3491] module 'FIFO' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:12' bound to instance 'u_fifo' of component 'FIFO' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'FIFO' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:29]
+WARNING: [Synth 8-614] signal 'zero_data' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:51]
+WARNING: [Synth 8-614] signal 'fifo_mem' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:62]
+WARNING: [Synth 8-614] signal 'effective_read_en' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:101]
+INFO: [Synth 8-256] done synthesizing module 'FIFO' (30#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'logic_analyser' (31#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:26]
+WARNING: [Synth 8-3848] Net LED_Internal in module/entity OK_BoardWrapper does not have driver. [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:26]
+WARNING: [Synth 8-3848] Net LA_SampilingCompleted in module/entity OK_BoardWrapper does not have driver. [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:43]
+WARNING: [Synth 8-3848] Net ok2s in module/entity OK_BoardWrapper does not have driver. [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:30]
+WARNING: [Synth 8-3848] Net LA_Test_Signals in module/entity OK_BoardWrapper does not have driver. [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'OK_BoardWrapper' (32#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:20]
 WARNING: [Synth 8-3917] design OK_BoardWrapper has port HI_MuxSel driven by constant 0
 WARNING: [Synth 8-3917] design OK_BoardWrapper has port LED[15] driven by constant 0
 WARNING: [Synth 8-3917] design OK_BoardWrapper has port LED[14] driven by constant 0
@@ -1669,6 +1876,30 @@ WARNING: [Synth 8-3917] design OK_BoardWrapper has port LED[11] driven by consta
 WARNING: [Synth 8-3917] design OK_BoardWrapper has port LED[10] driven by constant 0
 WARNING: [Synth 8-3917] design OK_BoardWrapper has port LED[9] driven by constant 0
 WARNING: [Synth 8-3917] design OK_BoardWrapper has port LED[8] driven by constant 0
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[30]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[29]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[27]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[26]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[15]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[14]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[13]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[12]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[11]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[10]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[9]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[8]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[7]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[6]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[5]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[4]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[3]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[2]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[1]
+WARNING: [Synth 8-3331] design okWireOut has unconnected port ok1[0]
+WARNING: [Synth 8-3331] design okTriggerIn has unconnected port ok1[30]
+WARNING: [Synth 8-3331] design okTriggerIn has unconnected port ok1[29]
+WARNING: [Synth 8-3331] design okTriggerIn has unconnected port ok1[28]
+WARNING: [Synth 8-3331] design okTriggerIn has unconnected port ok1[26]
 WARNING: [Synth 8-3331] design okWireIn has unconnected port ok1[30]
 WARNING: [Synth 8-3331] design okWireIn has unconnected port ok1[29]
 WARNING: [Synth 8-3331] design okWireIn has unconnected port ok1[26]
@@ -1745,33 +1976,9 @@ WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port m_acl
 WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_aclk
 WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_aresetn
 WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port m_aclk_en
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_aclk_en
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awid[0]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[31]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[30]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[29]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[28]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[27]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[26]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[25]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[24]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[23]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[22]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[21]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[20]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[19]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[18]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[17]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[16]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[15]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[14]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[13]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[12]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[11]
-WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port s_axi_awaddr[10]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 373.238 ; gain = 162.918
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 375.031 ; gain = 165.590
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1780,97 +1987,103 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[84] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[83] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[82] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[81] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[80] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[79] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[78] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[77] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[76] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[75] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[74] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[73] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[72] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[71] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[70] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[69] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[68] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[67] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[66] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[65] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[64] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[63] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[62] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[61] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[60] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[59] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[58] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[57] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[56] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[55] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[54] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[53] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[52] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[51] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[50] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[49] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[48] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[47] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[46] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[45] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[44] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[43] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[42] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[41] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[40] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[39] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[38] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[37] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[36] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[35] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[34] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[33] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[32] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[31] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[30] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[29] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[28] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[27] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[26] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[25] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[24] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[23] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[22] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[21] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[20] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[19] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[18] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[17] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[16] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[15] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[14] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[13] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[12] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[11] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[10] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[9] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[8] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[7] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[6] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[5] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[4] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[3] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[2] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[1] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[0] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:69]
-WARNING: [Synth 8-3295] tying undriven pin Logic_Analyzer:data_in[3] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:80]
-WARNING: [Synth 8-3295] tying undriven pin Logic_Analyzer:data_in[2] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:80]
-WARNING: [Synth 8-3295] tying undriven pin Logic_Analyzer:data_in[1] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:80]
-WARNING: [Synth 8-3295] tying undriven pin Logic_Analyzer:data_in[0] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:80]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[84] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[83] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[82] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[81] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[80] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[79] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[78] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[77] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[76] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[75] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[74] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[73] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[72] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[71] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[70] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[69] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[68] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[67] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[66] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[65] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[64] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[63] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[62] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[61] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[60] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[59] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[58] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[57] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[56] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[55] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[54] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[53] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[52] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[51] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[50] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[49] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[48] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[47] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[46] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[45] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[44] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[43] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[42] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[41] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[40] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[39] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[38] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[37] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[36] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[35] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[34] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[33] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[32] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[31] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[30] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[29] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[28] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[27] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[26] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[25] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[24] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[23] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[22] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[21] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[20] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[19] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[18] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[17] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[16] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[15] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[14] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[13] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[12] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[11] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[10] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[9] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[8] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[7] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[6] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[5] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[4] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[3] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[2] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[1] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okWO:ok2s[0] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:94]
+WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[15] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[14] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[13] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[12] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[11] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[0] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+WARNING: [Synth 8-3295] tying undriven pin Logic_Analyzer:data_in[3] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:115]
+WARNING: [Synth 8-3295] tying undriven pin Logic_Analyzer:data_in[2] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:115]
+WARNING: [Synth 8-3295] tying undriven pin Logic_Analyzer:data_in[1] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:115]
+WARNING: [Synth 8-3295] tying undriven pin Logic_Analyzer:data_in[0] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:115]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 373.238 ; gain = 162.918
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 375.031 ; gain = 165.590
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 109 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1905,22 +2118,22 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM128X1S => RAM128X1S (RAMS64E, RAMS64E, MUXF7): 8 instances
   RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 4 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 684.906 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 685.758 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a15tftg256-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5545] ROM "clk_by_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
@@ -2031,7 +2244,7 @@ INFO: [Synth 8-5546] ROM "fifo_mem_reg[98]" won't be mapped to RAM because it is
 INFO: [Synth 8-5546] ROM "fifo_mem_reg[99]" won't be mapped to RAM because it is too sparse
 INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2039,10 +2252,10 @@ Report RTL Partitions:
 |      |RTL Partition        |Replication |Instances |
 +------+---------------------+------------+----------+
 |1     |okHost__GC0          |           1|      1159|
-|2     |FIFO__GB0            |           1|     33488|
-|3     |FIFO__GB1            |           1|     12681|
-|4     |logic_analyser__GC0  |           1|      2884|
-|5     |OK_BoardWrapper__GC0 |           1|       133|
+|2     |FIFO__GB0            |           1|     33611|
+|3     |FIFO__GB1            |           1|     12678|
+|4     |logic_analyser__GC0  |           1|      2577|
+|5     |OK_BoardWrapper__GC0 |           1|       270|
 +------+---------------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -2084,6 +2297,12 @@ WARNING: [Synth 8-3917] design OK_BoardWrapper has port LED[11] driven by consta
 WARNING: [Synth 8-3917] design OK_BoardWrapper has port LED[10] driven by constant 0
 WARNING: [Synth 8-3917] design OK_BoardWrapper has port LED[9] driven by constant 0
 WARNING: [Synth 8-3917] design OK_BoardWrapper has port LED[8] driven by constant 0
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/okStatusSignalsToPC/\wirehold_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/okStatusSignalsToPC/\wirehold_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/okStatusSignalsToPC/\wirehold_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/okStatusSignalsToPC/\wirehold_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/okStatusSignalsToPC/\wirehold_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/okStatusSignalsToPC/\wirehold_reg[15] )
 WARNING: [Synth 8-3332] Sequential element (ep_datahold_reg[10]) is unused and will be removed from module okWireIn.
 WARNING: [Synth 8-3332] Sequential element (ep_datahold_reg[11]) is unused and will be removed from module okWireIn.
 WARNING: [Synth 8-3332] Sequential element (ep_datahold_reg[12]) is unused and will be removed from module okWireIn.
@@ -2114,23 +2333,77 @@ WARNING: [Synth 8-3332] Sequential element (ep_dataout_reg[6]) is unused and wil
 WARNING: [Synth 8-3332] Sequential element (ep_dataout_reg[7]) is unused and will be removed from module okWireIn.
 WARNING: [Synth 8-3332] Sequential element (ep_dataout_reg[8]) is unused and will be removed from module okWireIn.
 WARNING: [Synth 8-3332] Sequential element (ep_dataout_reg[9]) is unused and will be removed from module okWireIn.
-WARNING: [Synth 8-3332] Sequential element (l008c72ad3b3ec61be52cde84a395c4fa_reg) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (la85eaf42c58af45585f858cdefb86492_reg) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[10]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[11]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[12]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[13]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[14]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[15]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[1]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[2]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[3]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[4]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[5]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[6]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[7]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[8]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[9]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[0]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[10]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[11]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[12]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[13]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[14]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[15]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[1]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[2]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[3]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[4]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[5]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[6]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[7]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[8]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (ep_trigger_reg[9]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[0]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[10]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[11]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[12]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[13]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[14]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[15]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[1]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[2]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[3]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[4]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[5]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[6]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[7]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[8]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (eptrig_reg[9]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[0]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[10]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[11]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[12]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[13]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[14]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[15]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[1]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[2]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[3]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[4]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[5]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[6]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[7]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[8]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff0_reg[9]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[0]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[10]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[11]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[12]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[13]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[14]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[15]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[1]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[2]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[3]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[4]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[5]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[6]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[7]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[8]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (trigff1_reg[9]) is unused and will be removed from module okTriggerIn.
+WARNING: [Synth 8-3332] Sequential element (wirehold_reg[0]) is unused and will be removed from module okWireOut.
+WARNING: [Synth 8-3332] Sequential element (wirehold_reg[11]) is unused and will be removed from module okWireOut.
+WARNING: [Synth 8-3332] Sequential element (wirehold_reg[12]) is unused and will be removed from module okWireOut.
+WARNING: [Synth 8-3332] Sequential element (wirehold_reg[13]) is unused and will be removed from module okWireOut.
+WARNING: [Synth 8-3332] Sequential element (wirehold_reg[14]) is unused and will be removed from module okWireOut.
+WARNING: [Synth 8-3332] Sequential element (wirehold_reg[15]) is unused and will be removed from module okWireOut.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-3886] merging instance 'Logic_Analyzeri_3/u_buffer/buffer_memory_reg[0][0]' (FDCE) to 'Logic_Analyzeri_3/u_buffer/buffer_memory_reg[0][1]'
 INFO: [Synth 8-3886] merging instance 'Logic_Analyzeri_3/u_buffer/buffer_memory_reg[0][1]' (FDCE) to 'Logic_Analyzeri_3/u_buffer/buffer_memory_reg[0][2]'
 INFO: [Synth 8-3886] merging instance 'Logic_Analyzeri_3/u_buffer/buffer_memory_reg[0][2]' (FDCE) to 'Logic_Analyzeri_3/u_buffer/buffer_memory_reg[0][3]'
@@ -2162,17 +2435,17 @@ INFO: [Synth 8-3886] merging instance 'Logic_Analyzeri_3/u_buffer/data_out_temp_
 INFO: [Synth 8-3886] merging instance 'Logic_Analyzeri_3/u_buffer/data_out_temp_reg[12]' (FDCE) to 'Logic_Analyzeri_3/u_buffer/data_out_temp_reg[15]'
 INFO: [Synth 8-3886] merging instance 'Logic_Analyzeri_3/u_buffer/data_out_temp_reg[13]' (FDCE) to 'Logic_Analyzeri_3/u_buffer/data_out_temp_reg[15]'
 INFO: [Synth 8-3886] merging instance 'Logic_Analyzeri_3/u_buffer/data_out_temp_reg[14]' (FDCE) to 'Logic_Analyzeri_3/u_buffer/data_out_temp_reg[15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1023][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1023][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1022][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1022][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1021][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1021][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1020][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1020][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1019][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1019][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1023][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1023][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1022][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1022][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1021][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1021][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1020][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1020][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1019][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1019][15]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1018][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1018][1]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1017][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1017][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1016][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1016][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1015][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1015][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1014][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1014][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1013][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1013][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1016][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1016][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1015][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1015][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1014][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1014][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1013][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1013][15]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1012][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1012][1]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1011][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1011][1]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1010][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1010][1]'
@@ -2181,19 +2454,19 @@ INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1008][0]' (FDCE) t
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1007][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1007][1]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1006][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1006][1]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1005][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1005][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1004][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1004][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1003][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1003][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1002][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1002][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1001][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1001][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1000][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1000][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[999][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[999][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[998][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[998][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[997][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[997][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[996][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[996][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[995][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[995][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[994][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[994][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[993][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[993][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[992][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[992][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1004][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1004][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1003][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1003][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1002][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1002][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1001][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1001][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[1000][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[1000][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[999][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[999][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[998][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[998][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[997][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[997][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[996][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[996][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[995][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[995][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[994][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[994][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[993][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[993][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[992][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[992][15]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[991][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[991][1]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[990][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[990][1]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[989][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[989][1]'
@@ -2219,22 +2492,22 @@ INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[970][0]' (FDCE) to
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[969][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[969][1]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[968][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[968][1]'
 INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[967][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[967][1]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[966][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[966][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[965][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[965][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[964][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[964][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[963][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[963][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[962][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[962][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[961][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[961][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[960][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[960][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[959][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[959][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[958][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[958][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[957][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[957][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[956][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[956][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[955][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[955][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[954][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[954][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[953][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[953][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[952][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[952][15]'
-INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[951][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[951][15]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[966][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[966][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[965][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[965][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[964][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[964][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[963][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[963][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[962][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[962][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[961][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[961][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[960][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[960][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[959][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[959][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[958][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[958][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[957][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[957][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[956][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[956][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[955][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[955][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[954][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[954][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[953][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[953][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[952][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[952][1]'
+INFO: [Synth 8-3886] merging instance 'u_fifoi_1/fifo_mem_reg[951][0]' (FDCE) to 'u_fifoi_1/fifo_mem_reg[951][1]'
 INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1/\fifo_mem_reg[1023][15] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1/\fifo_mem_reg[1022][15] )
@@ -2326,30 +2599,20 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1/\fifo_mem_reg[936][15] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1/\fifo_mem_reg[935][15] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1/\fifo_mem_reg[934][15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1/\fifo_mem_reg[933][15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1/\fifo_mem_reg[932][15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1/\fifo_mem_reg[931][15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1/\fifo_mem_reg[930][15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1/\fifo_mem_reg[929][15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_fifoi_1/\fifo_mem_reg[928][15] )
 INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-WARNING: [Synth 8-3332] Sequential element (ep_datahold_reg[0]) is unused and will be removed from module okWireIn.
-WARNING: [Synth 8-3332] Sequential element (ep_dataout_reg[0]) is unused and will be removed from module okWireIn.
-WARNING: [Synth 8-3332] Sequential element (l9e32dfd1ee51a4e7f33914a7db2b23f9_reg) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[0]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lad064777d8d868fec96bf487062e185e_reg) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lfb4582b1e63cb7e0f6c3942f3d4e0ef2_reg) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lff3d64fc8c56e1daea4118a6081cd348_reg) is unused and will be removed from module okCore.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:01:11 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
 +------+---------------------+------------+----------+
 |      |RTL Partition        |Replication |Instances |
 +------+---------------------+------------+----------+
-|1     |okHost__GC0          |           1|      1089|
-|2     |OK_BoardWrapper__GC0 |           1|        96|
+|1     |okHost__GC0          |           1|      1103|
+|2     |FIFO__GB0            |           1|        19|
+|3     |FIFO__GB1            |           1|       273|
+|4     |logic_analyser__GC0  |           1|       105|
+|5     |OK_BoardWrapper__GC0 |           1|       132|
 +------+---------------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Timing Optimization
@@ -2358,83 +2621,126 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:07 ; elapsed = 00:01:21 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:04 ; elapsed = 00:01:10 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:07 ; elapsed = 00:01:21 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Timing Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:11 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
 +------+---------------------+------------+----------+
 |      |RTL Partition        |Replication |Instances |
 +------+---------------------+------------+----------+
-|1     |okHost__GC0          |           1|      1089|
-|2     |OK_BoardWrapper__GC0 |           1|        96|
+|1     |okHost__GC0          |           1|      1103|
+|2     |FIFO__GB0            |           1|        19|
+|3     |FIFO__GB1            |           1|       273|
+|4     |logic_analyser__GC0  |           1|       105|
+|5     |OK_BoardWrapper__GC0 |           1|       132|
 +------+---------------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[16]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[15]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[14]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[13]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[12]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[11]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[10]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[9]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[8]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[7]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[6]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[5]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[4]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[3]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[2]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[1]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[0]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:73]
-WARNING: [Synth 8-3332] Sequential element (l9f43dc9d3787a4c1395542a254aee157_reg[0]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (l9f43dc9d3787a4c1395542a254aee157_reg[1]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (l9f43dc9d3787a4c1395542a254aee157_reg[2]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (l9f43dc9d3787a4c1395542a254aee157_reg[3]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (l9f43dc9d3787a4c1395542a254aee157_reg[4]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (l9f43dc9d3787a4c1395542a254aee157_reg[5]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (l9f43dc9d3787a4c1395542a254aee157_reg[6]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (l9f43dc9d3787a4c1395542a254aee157_reg[7]) is unused and will be removed from module okCore.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[16]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[15]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[14]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[13]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[12]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[11]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[10]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[9]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[8]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[7]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[6]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[5]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[4]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[3]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[2]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[1]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okPipeToPC/ok2[0]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:98]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[15]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[14]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[13]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[12]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[11]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[10]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[9]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[8]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[7]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[6]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[5]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[4]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[3]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[2]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[1]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 1st driver pin 'okStatusSignalsToPC/ok2[0]' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net I1 with 2nd driver pin 'GND' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net I1 is connected to constant driver, other driver is ignored [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:112]
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:07 ; elapsed = 00:01:21 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Technology Mapping : Time (s): cpu = 00:01:04 ; elapsed = 00:01:11 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2462,11 +2768,9 @@ WARNING: [Synth 8-3295] tying undriven pin i_2:en to constant 0
 WARNING: [Synth 8-3295] tying undriven pin i_3:en to constant 0
 WARNING: [Synth 8-3295] tying undriven pin i_4:en to constant 0
 WARNING: [Synth 8-3295] tying undriven pin i_5:en to constant 0
-WARNING: [Synth 8-3295] tying undriven pin i_6:en to constant 0
-WARNING: [Synth 8-3295] tying undriven pin i_7:en to constant 0
-WARNING: [Synth 8-3295] tying undriven pin i_8:en to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:08 ; elapsed = 00:01:22 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished IO Insertion : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -2479,7 +2783,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:08 ; elapsed = 00:01:22 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2491,25 +2795,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:08 ; elapsed = 00:01:22 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:08 ; elapsed = 00:01:22 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:08 ; elapsed = 00:01:22 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:08 ; elapsed = 00:01:22 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -2550,11 +2854,11 @@ Report Cell Usage:
 |23    |OBUFT       |     8|
 +------+------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:08 ; elapsed = 00:01:22 . Memory (MB): peak = 684.906 ; gain = 474.586
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 685.758 ; gain = 476.316
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 51 critical warnings and 95 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:49 ; elapsed = 00:01:04 . Memory (MB): peak = 684.906 ; gain = 157.703
-Synthesis Optimization Complete : Time (s): cpu = 00:01:08 ; elapsed = 00:01:22 . Memory (MB): peak = 684.906 ; gain = 474.586
+Synthesis finished with 0 errors, 99 critical warnings and 251 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:47 ; elapsed = 00:01:01 . Memory (MB): peak = 685.758 ; gain = 159.723
+Synthesis Optimization Complete : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 685.758 ; gain = 476.316
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 116 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -2570,9 +2874,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-1976 Infos, 296 Warnings, 51 Critical Warnings and 0 Errors encountered.
+2184 Infos, 339 Warnings, 99 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:08 ; elapsed = 00:01:22 . Memory (MB): peak = 684.906 ; gain = 474.586
+synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:11 . Memory (MB): peak = 685.758 ; gain = 476.316
 INFO: [Common 17-1381] The checkpoint 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1/OK_BoardWrapper.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.171 . Memory (MB): peak = 684.906 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Apr 04 13:58:50 2017...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 685.758 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 07 10:11:40 2017...
