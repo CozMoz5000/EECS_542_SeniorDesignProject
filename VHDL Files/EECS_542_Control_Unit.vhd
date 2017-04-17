@@ -14,7 +14,7 @@ END ENTITY EECS_542_Control_Unit;
 
 ARCHITECTURE Struct OF EECS_542_Control_Unit IS
     --User Signals
-    Signal LOCAL_RESET_INTERNAL : STD_LOGIC;
+    Signal LOCAL_RESET_INTERNAL : STD_LOGIC := '0';
     Signal CLK_SEL_INTERNAL : STD_LOGIC_VECTOR(2 downto 0) :=  "000";
     Signal Local_Count : INTEGER := 0;
     
@@ -52,9 +52,11 @@ begin
                 Local_Count <= Local_Count + 1;
                 
                 --Chcek if we need to stop sampiling
-                IF (Local_Count = 501) THEN
+                IF (Local_Count = 100) THEN
                     --Head back to the IDLE STATE
                     state <= IDLE;
+                    --Reset the count
+                    Local_Count <= 0;
                 END IF;
          END CASE;
         END IF;

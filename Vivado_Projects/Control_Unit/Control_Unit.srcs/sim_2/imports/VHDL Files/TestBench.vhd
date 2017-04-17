@@ -20,31 +20,44 @@ ARCHITECTURE behavior OF test_tb IS
     END Component;
     
 	--Internal Test Signal Declarations
-	Constant Clock_Period : time := 50ms;
+	Constant Clock_Period : time := 10ns;
     signal Stimulus_Clock : STD_LOGIC;
+    Signal Clock_Select : STD_LOGIC_VECTOR(2 downto 0);
+    Signal G_Reset, L_Reset : STD_LOGIC;
+    Signal CLK_For_LA, Start_Sample : STD_LOGIC;
 BEGIN
 	--Unit Under Test Module Declaration
     UUT : EECS_542_Control_Unit PORT MAP (
-	   FPGA_CLK_100MHz => ,
-	   GLOBAL_RESET => ,
-	   START_SAMPILING_TRIGGER => ,
-	   CLK_SEL => ,
-	   LOCAL_RESET => ,
-	   SAMPILING_CLK_OUT => );
+	   FPGA_CLK_100MHz => Stimulus_Clock,
+	   GLOBAL_RESET => G_Reset,
+	   START_SAMPILING_TRIGGER => Start_Sample,
+	   CLK_SEL => Clock_Select,
+	   LOCAL_RESET => L_Reset,
+	   SAMPILING_CLK_OUT => CLK_For_LA);
     
 	--Stimulus Clock Generation Process
 	Stimulus_Clock_Process : PROCESS
 	BEGIN
-		Stimulus_Clock <= '0';
-		wait for Clock_Period;
 		Stimulus_Clock <= '1';
+		wait for Clock_Period;
+		Stimulus_Clock <= '0';
 		wait for Clock_Period;
 	END PROCESS;
 		
 	--Test Stimulus Process
     Stimulus_Process : PROCESS
     BEGIN
-        wait for XXXX ms;
+        G_Reset <= '1';
+        Clock_Select <= "001";
+        Start_Sample <= '0';
+        wait for 100 ns;
+        
+        G_Reset <= '0';
+        wait for 20ns;
+        Start_Sample <= '1';
+        wait for 10ns;
+        Start_Sample <= '0';
+        
         Wait;
     END PROCESS;
 END;

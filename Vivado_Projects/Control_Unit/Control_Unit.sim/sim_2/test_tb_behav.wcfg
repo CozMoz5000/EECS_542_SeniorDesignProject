@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1337702391fs"></ZoomEndTime>
+      <Cursor1Time time="130502000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/test_tb/Stimulus_Clock" type="logic">
+      <obj_property name="ElementShortName">Stimulus_Clock</obj_property>
+      <obj_property name="ObjectShortName">Stimulus_Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/Clock_Select" type="array">
+      <obj_property name="ElementShortName">Clock_Select[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Clock_Select[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/G_Reset" type="logic">
+      <obj_property name="ElementShortName">G_Reset</obj_property>
+      <obj_property name="ObjectShortName">G_Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/L_Reset" type="logic">
+      <obj_property name="ElementShortName">L_Reset</obj_property>
+      <obj_property name="ObjectShortName">L_Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/Start_Sample" type="logic">
+      <obj_property name="ElementShortName">Start_Sample</obj_property>
+      <obj_property name="ObjectShortName">Start_Sample</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/CLK_For_LA" type="logic">
+      <obj_property name="ElementShortName">CLK_For_LA</obj_property>
+      <obj_property name="ObjectShortName">CLK_For_LA</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider10">
+      <obj_property name="label">Control Unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT/Local_Count" type="other">
+      <obj_property name="ElementShortName">Local_Count</obj_property>
+      <obj_property name="ObjectShortName">Local_Count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider47">
+      <obj_property name="label">Clock Block</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT/Clock_Module/CLK_IN" type="logic">
+      <obj_property name="ElementShortName">CLK_IN</obj_property>
+      <obj_property name="ObjectShortName">CLK_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT/Clock_Module/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT/Clock_Module/MUX_SEL" type="array">
+      <obj_property name="ElementShortName">MUX_SEL[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MUX_SEL[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT/Clock_Module/CLK_OUT" type="logic">
+      <obj_property name="ElementShortName">CLK_OUT</obj_property>
+      <obj_property name="ObjectShortName">CLK_OUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT/Clock_Module/CLK_OUT_INTERNAL" type="logic">
+      <obj_property name="ElementShortName">CLK_OUT_INTERNAL</obj_property>
+      <obj_property name="ObjectShortName">CLK_OUT_INTERNAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT/Clock_Module/CLK_DIV_OUTPUTS" type="array">
+      <obj_property name="ElementShortName">CLK_DIV_OUTPUTS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_DIV_OUTPUTS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT/Clock_Module/NOT_RESET" type="logic">
+      <obj_property name="ElementShortName">NOT_RESET</obj_property>
+      <obj_property name="ObjectShortName">NOT_RESET</obj_property>
+   </wvobject>
+</wave_config>
