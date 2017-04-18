@@ -19,6 +19,12 @@ ARCHITECTURE behavior OF test_tb IS
              SAMPILING_CLK_OUT : OUT STD_LOGIC);
     END Component;
     
+    Component UpCounter_4bit_AsyncReset is
+        Port(Clock : IN  STD_LOGIC;
+             Reset : IN STD_LOGIC;
+             Q : OUT STD_LOGIC_VECTOR(3 downto 0));
+    end Component;
+    
     Component logic_analyser is
         generic(   
             n_of_inputs                 : integer := 2;    --Number of inputs we are sampling
@@ -44,14 +50,14 @@ ARCHITECTURE behavior OF test_tb IS
 	Constant USB_Clock_Period : time := 20.8ns;
     Signal Stimulus_Clock : STD_LOGIC;
     Signal USB_Clock : STD_LOGIC;
-    Signal Global_Reset, Start_Sample, Local_Reset, Sampling_Clock : STD_LOGIC;
+    Signal Global_Reset, Start_Sample, Local_Reset, Sampiling_Clock : STD_LOGIC := '0';
     Signal Clock_Select : STD_LOGIC_VECTOR(2 downto 0);
     Signal LA_Read_Enable : STD_LOGIC;
     Signal LA_Data_Out : STD_LOGIC_VECTOR(15 downto 0);
     Signal LA_Test_Signals : STD_LOGIC_VECTOR(3 downto 0);
     
     --Global Parameters
-    Constant FIFO_DATA_DEPTH : INTEGER := 1024;
+    Constant FIFO_DATA_DEPTH : INTEGER := 35;
     Constant NUM_BITS_TO_REPRESENT_FIFO_DEPTH : INTEGER := 10;
     
     --Signal Declarations
@@ -63,11 +69,11 @@ BEGIN
                                           START_SAMPILING_TRIGGER => Start_Sample,
                                           CLK_SEL => Clock_Select,
                                           LOCAL_RESET => Local_Reset,
-                                          SAMPILING_CLK_OUT => Sampling_Clock);
+                                          SAMPILING_CLK_OUT => Sampiling_Clock);
     
     UUT1 : logic_analyser GENERIC MAP (n_of_inputs => 4, b_width => 4, fifo_mem_size => FIFO_DATA_DEPTH)
                           PORT MAP (rst => Local_Reset,
-                                    clk => Sampling_Clock,
+                                    clk => Sampiling_Clock,
                                     usb_clk => USB_Clock,
                                     read_en => LA_Read_Enable,
                                     data_in => LA_Test_Signals,
@@ -91,6 +97,9 @@ BEGIN
         wait for USB_Clock_Period/2;
     END PROCESS;
     
+    --Test Unit Init
+    Test_Unit : UpCounter_4bit_AsyncReset port map (Clock => Sampiling_Clock, Reset => Local_Reset, Q => LA_Test_Signals);
+    
 	--Test Stimulus Process
     Stimulus_Process : PROCESS
     BEGIN
@@ -99,12 +108,11 @@ BEGIN
         Clock_Select <= "001";
         Start_Sample <= '0';
         LA_Read_Enable <= '0';
-        LA_Test_Signals <= "0000";
         
-        wait for 20 ns;
+        wait for 10 ns;
         --Undo Resets
         Global_Reset <= '0';
-        wait for 10 ns;
+        wait for 22 ns;
         --Start Sampiling
         Start_Sample <= '1';
         wait for 10ns;

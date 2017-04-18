@@ -9,37 +9,39 @@ create_project -in_memory -part xc7a15tftg256-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.cache/wt [current_project]
-set_property parent.project_path D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.xpr [current_project]
+set_property webtalk.parent_dir D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.cache/wt [current_project]
+set_property parent.project_path D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo d:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.cache/ip [current_project]
+set_property ip_output_repo d:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
-  D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/OK_Source_Files/okCoreHarness.v
-  D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/OK_Source_Files/okWireIn.v
-  D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/OK_Source_Files/okPipeOut.v
-  D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/OK_Source_Files/okWireOut.v
-  D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/OK_Source_Files/okTriggerIn.v
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okCoreHarness.v
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireIn.v
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okPipeOut.v
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireOut.v
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okTriggerIn.v
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okTriggerOut.v
 }
 read_vhdl -library xil_defaultlib {
-  {D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/VHDL Files/Basic_Gates.vhd}
-  {D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/VHDL Files/Multiplexers.vhd}
-  {D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/VHDL Entities/Clock_Divider.vhd}
-  {D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Clock_Block.vhd}
-  D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd
-  D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd
-  D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/clk_divider.vhd
-  {D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Control_Unit.vhd}
-  D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd
-  D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd
-  D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd
+  {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/Basic_Gates.vhd}
+  {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/Multiplexers.vhd}
+  {D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/VHDL Entities/Clock_Divider.vhd}
+  {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Clock_Block.vhd}
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/clk_divider.vhd
+  {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/UpCounter_4bit_AsyncReset.vhd}
+  {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Control_Unit.vhd}
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd
 }
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc
-set_property used_in_implementation false [get_files D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc]
+read_xdc D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc
+set_property used_in_implementation false [get_files D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc]
 
 
 synth_design -top OK_BoardWrapper -part xc7a15tftg256-1

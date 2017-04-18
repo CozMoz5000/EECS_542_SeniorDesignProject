@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1'
+HD_PWD='D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

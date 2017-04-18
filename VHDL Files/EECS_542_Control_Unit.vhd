@@ -9,6 +9,7 @@ ENTITY EECS_542_Control_Unit IS
        START_SAMPILING_TRIGGER : IN STD_LOGIC;
        CLK_SEL : IN STD_LOGIC_VECTOR(2 downto 0);
        LOCAL_RESET : OUT STD_LOGIC;
+       SAMPILING_COMPLETED : OUT STD_LOGIC;
        SAMPILING_CLK_OUT : OUT STD_LOGIC);
 END ENTITY EECS_542_Control_Unit;
 
@@ -17,6 +18,7 @@ ARCHITECTURE Struct OF EECS_542_Control_Unit IS
     Signal LOCAL_RESET_INTERNAL : STD_LOGIC := '0';
     Signal CLK_SEL_INTERNAL : STD_LOGIC_VECTOR(2 downto 0) :=  "000";
     Signal Local_Count : INTEGER := 0;
+    Signal SAMPILING_COMPLETED_INTERNAL : STD_LOGIC := '0';
     
     --State Machine Definitions
     TYPE STATE_TYPE IS (IDLE, SAMPILING);
@@ -42,6 +44,9 @@ begin
                --Set the output value to match our parameters
                CLK_SEL_INTERNAL <= CLK_SEL;
                
+               --Make sure we are not saying we are done
+               SAMPILING_COMPLETED_INTERNAL <= '0';
+               
                --Check to see if we should start sampiling
                IF (START_SAMPILING_TRIGGER = '1') THEN
                     --Move to the Sampiling state
@@ -57,6 +62,8 @@ begin
                     state <= IDLE;
                     --Reset the count
                     Local_Count <= 0;
+                    --Signal that we are done
+                    SAMPILING_COMPLETED_INTERNAL <= '1';
                 END IF;
          END CASE;
         END IF;
@@ -80,5 +87,6 @@ begin
     
     --Map the internal reset to the output
     LOCAL_RESET <= LOCAL_RESET_INTERNAL;
+    SAMPILING_COMPLETED <= SAMPILING_COMPLETED_INTERNAL;
 END ARCHITECTURE Struct;
 ------------------------------------------------

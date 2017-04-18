@@ -3,7 +3,9 @@
       --The FIFO is not full -> the read address pointer and the write address pointer are unequal
       --Only on the rising edge of the FIFO write clock
 --Data is read from the FIFO when:
-      --The 
+      --The FIFO still contains iterms that have not been read
+      --Only on the rising edge of the usb_read_clk and when the read_en signal is 1 
+--On each read or write, only a single row in the FIFO is onsidered. All bits in the row are written to/read in parallel.
 
 
 library IEEE;
@@ -77,21 +79,13 @@ begin
                 total_writes <= 0;
             else                           
                 if(rising_edge(effective_write_clk)) then
-                    if(first_write_cycle_passed = '0' and (write_address /= read_address)) then  --this happens when the first write has been done, but no read. Now we know that the first write cycle has passed
+                    if(first_write_cycle_passed = '0' and (write_address /= read_address)) then  --must allow one write cycle pass before we can make any comparisons between the two address pointers (so that they are different)                                                                                           
                         first_write_cycle_passed <= '1';
                     end if; 
-                    if(first_write_cycle_passed = '1' and (write_address = read_address)) then   --this happens when the write pointer and read pointer meet again, indicating that the FIFO is full.
-                        master_write_controller <= '0'; --We shall inhibit any further writes
-                        if( write_address = 0 ) then    --This is a corner-case: Since the current write location is the same as the current read location, we might corrupt the data we're reading if we allow writes here, so back off by one index.
-                            write_address <= mem_size - 1;  --if we're at the top of the FIFO, move back to the bottom
-                        else
-                            write_address <= write_address - 1; --else, move back by an index
-                        end if;                            
-                    elsif(write_address >= mem_size - 1) then  --when the write pointer has reached the bottom of the FIFO, and we're still not done                         
-                        write_address <= 0;     --circle back to the top
-                        total_writes <= total_writes + 1;  
-                    else 
-                        write_address <= write_address + 1;     --else, just increment the current write_address (as we're still not done)
+                    if(first_write_cycle_passed = '1' and ((write_address + 1) mod mem_size = read_address)) then   --this happens when the write pointer is at one index before the read pointer , indicating that the FIFO is full.
+                        master_write_controller <= '0'; --We shall inhibit any further writes 
+                    else
+                        write_address <= (write_address + 1) mod mem_size;      --otherwise (circularly) increment the write pointer.
                         total_writes <= total_writes + 1;
                     end if;                               
                 end if;
@@ -105,14 +99,13 @@ begin
                 read_address <= 0;
                 total_reads <= 0;
             elsif(effective_read_en = '1' and rising_edge(usb_read_clk)) then   --we shall only read if we are on the rising edge of the usb read clock and read enable = 1
-                total_reads <= total_reads + 1;
-                if(master_write_controller = '0' and (write_address = read_address)) then   --if the read pointer clashes with the write pointer, we know we're done and the FIFO should come to a halt (no more reads - writes were already done a while back)
+                if(master_write_controller = '0' and (write_address = read_address)) then   --if the read pointer clashes with the write pointer and the write_controller flag is set to 0 (no more writes), we know we're done and the FIFO should come to a halt (no more reads)
                     master_read_controller <= '0';
-                elsif(read_address >= mem_size - 1) then     --else if at the bottom of the FIFO, circle back to the top                          
-                    read_address <= 0;                   
-                else 
-                    read_address <= read_address + 1;       --otherwise increment it
-                end if;
+                elsif( abs(write_address - read_address) mod mem_size > 0 ) then  --only read after ensuring the read and write pointers are at least one apart
+                      read_address <= (read_address + 1) mod mem_size;
+                      total_reads <= total_reads + 1;
+                end if; 
+                --the other case would be that the read pointer reaches the write pointer even though the write_controller is not set to 0 yet. This would happen if reading is being done faster than writing (which is rare to happen). In such an event, the read pointer will simply wait where it is until the next cycle.
             end if;
         end process;
         
@@ -124,9 +117,7 @@ begin
                 m_num_of_data <= total_writes - total_reads;    --at any given time, the remaining items in the FIFO is always equal to the diferent of total writes and reads
             end if;
         end process;
-                
-            
-        
+                      
    fifo_state <= master_write_controller;   --when the master_write_controller = 0, we know the FIFO is full, so fifo_state = 0. 
    num_of_data <= m_num_of_data;
                                                      

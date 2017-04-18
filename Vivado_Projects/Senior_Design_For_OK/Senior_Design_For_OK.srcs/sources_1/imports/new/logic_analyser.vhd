@@ -18,7 +18,7 @@ entity logic_analyser is
         read_en                     : in std_logic;     --The read enable signal supplied by the USB. The USB reads from a FIFO row when this is high and we are on the rising edge of the usb clock
         data_in                     : in std_logic_vector(n_of_inputs-1 downto 0);  --a vector of data coming from external circuits - (1 bit per circuit-node)
         data_out                    : out std_logic_vector(b_width*n_of_inputs-1 downto 0); --the vector contained in a FIFO row, given to the USB at every read. 
-                                                                                            --The format is: [ckt1_sample1, ckt1_sample2, ... ckt1_sampleN , ckt2_sample1, ... ckt2_sampleN, ...]
+                                                                                            --The format is: [ckt1_sample1 , cktN_sample1, ... , ckt1_sample2, ... cktN_sample2, ...]
         fifo_remaining_data         : out integer range 0 to fifo_mem_size          --keeps track of the the total number of data remaining in the FIFO (to be read). Updated everytime a read/write to the FIFO happens
     );
 end logic_analyser;
@@ -98,20 +98,31 @@ begin
 --            );
             
 --Generates the write clock for the FIFO
-u_clk_gen: write_clk_generator generic map (N => clk_division_factor)
-                               port map (fpga_clk => clk,
+u_clk_gen: write_clk_generator generic map
+            (
+                N => clk_division_factor
+            )
+            port map 
+            (
+                fpga_clk => clk,
                 fifo_write_clk => write_clk,
                 off_time_factor => write_off_time              
             );
 --The intermediate buffer stage that prepares the data for a FIFO row
-u_buffer: input_buffer generic map (num_of_inputs => n_of_inputs,
-                                    buffer_width => b_width)
-                       port map (fpga_clk => clk,
-                                 fifo_write_clk => write_clk,
-                                 rst => rst,
-                                 buffer_en => fifo_state,
-                                 data_in => data_in,
-                                 data_out => data_from_buffer);
+u_buffer: input_buffer generic map
+            (
+                num_of_inputs => n_of_inputs,
+                buffer_width => b_width
+            )
+            port map
+            (
+                fpga_clk => clk,
+                fifo_write_clk => write_clk,
+                rst => rst,
+                buffer_en => fifo_state,
+                data_in => data_in,
+                data_out => data_from_buffer
+            );
             
 --The FIFO itself
 u_fifo: FIFO generic map
@@ -122,10 +133,11 @@ u_fifo: FIFO generic map
                 fifo_write_clk => write_clk,
                 usb_read_clk => usb_clk,
                 read_en => read_en,
-                rst => '0', --Leave at low now until I figure out a good way to do this (Austin, 4/17/17)
+                rst => '0',
                 data_in => data_from_buffer,
                 data_out => data_out,
                 fifo_state => fifo_state,
-                num_of_data => fifo_remaining_data);
+                num_of_data => fifo_remaining_data
+            );
 
 end Behavioral;

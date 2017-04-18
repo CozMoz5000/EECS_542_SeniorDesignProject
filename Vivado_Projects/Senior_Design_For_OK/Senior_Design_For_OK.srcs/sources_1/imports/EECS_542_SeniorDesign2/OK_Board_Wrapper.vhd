@@ -14,7 +14,7 @@ ENTITY OK_BoardWrapper IS
 		 HI_MuxSel : out STD_LOGIC;
          SW : IN STD_LOGIC_VECTOR (15 downto 0);
          CLK : IN STD_LOGIC;
-         LED : OUT STD_LOGIC_VECTOR (15 downto 0));
+         LED : OUT STD_LOGIC_VECTOR (7 downto 0));
 END OK_BoardWrapper;
 
 ARCHITECTURE Structural OF OK_BoardWrapper IS
@@ -27,7 +27,7 @@ ARCHITECTURE Structural OF OK_BoardWrapper IS
     Signal USB_Clock : STD_LOGIC;
     Signal ok1 : STD_LOGIC_VECTOR(30 downto 0);
 	Signal ok2 : STD_LOGIC_VECTOR(16 downto 0);
-	Signal ok2s : STD_LOGIC_VECTOR(17*5-1 downto 0);
+	Signal ok2s : STD_LOGIC_VECTOR(17*3-1 downto 0);
 	Signal fifoNumOfElements : INTEGER range 0 to FIFO_DATA_DEPTH;
 	
 	--User Signals
@@ -36,9 +36,11 @@ ARCHITECTURE Structural OF OK_BoardWrapper IS
 	Signal okWireIn_ControlSignals : STD_LOGIC_VECTOR(15 downto 0);
 	Signal okWireOut_StatusSignals : STD_LOGIC_VECTOR(15 downto 0);
 	Signal okTriggerIn_StartSignal : STD_LOGIC_VECTOR(15 downto 0);
+	Signal okTriggerOut_CompletedSignal : STD_LOGIC_VECTOR(15 downto 0);
 	Signal LA_Test_Signals : STD_LOGIC_VECTOR(3 downto 0);
 	Signal LA_Sampling_Clock_Select : STD_LOGIC_VECTOR(2 downto 0);
 	Signal LA_StartSampling : STD_LOGIC;
+	Signal LA_DoneSampling : STD_LOGIC;
 	Signal fifoDataCount : STD_LOGIC_VECTOR(NUM_BITS_TO_REPRESENT_FIFO_DEPTH-1 downto 0);
 	Signal LA_SampilingCompleted : STD_LOGIC;
 	
@@ -73,7 +75,14 @@ ARCHITECTURE Structural OF OK_BoardWrapper IS
            START_SAMPILING_TRIGGER : IN STD_LOGIC;
            CLK_SEL : IN STD_LOGIC_VECTOR(2 downto 0);
            LOCAL_RESET : OUT STD_LOGIC;
+           SAMPILING_COMPLETED : OUT STD_LOGIC;
            SAMPILING_CLK_OUT : OUT STD_LOGIC);
+    END Component;
+    
+    Component UpCounter_4bit_AsyncReset is
+        Port(Clock : IN  STD_LOGIC;
+             Reset : IN STD_LOGIC;
+             Q : OUT STD_LOGIC_VECTOR(3 downto 0));
     END Component;
 BEGIN
     --Required as per OK Firmware
@@ -88,8 +97,10 @@ BEGIN
     fifoDataCount <= std_logic_vector(to_unsigned(fifoNumOfElements, fifoDataCount'length));
     
     --Map the output signals of the LA to the Wire Out bits
-    okWireOut_StatusSignals(0) <= LA_SampilingCompleted;
-    okWireOut_StatusSignals(10 downto 1) <= fifoDataCount;
+    okWireOut_StatusSignals(9 downto 0) <= fifoDataCount;
+    
+    --Map the sampling completed signal from the control unit to the Trigger Out
+    okTriggerOut_CompletedSignal(0) <= LA_DoneSampling;
     
     --Map a internal signal to the actual LED's on the board
     LED(7) <= '0' when (LED_Internal(7) = '1') else 'Z';
@@ -103,11 +114,11 @@ BEGIN
     
     --Initalize the OK Host Module and OR Module
     okHI : okHost port map (hi_in=>HI_In, hi_out=>HI_Out, hi_inout=>HI_InOut, hi_aa=>HI_AA, ti_clk=>USB_Clock, ok1=>ok1, ok2=>ok2);
-    okWO : okWireOR generic map (N=>5) port map (ok2=>ok2, ok2s=>ok2s);
+    okWO : okWireOR generic map (N=>3) port map (ok2=>ok2, ok2s=>ok2s);
     
     --OK HDL Modules Declarations
     --Pipe for data transfer back to PC (Address: 0xA5)
-    okPipeToPC : okPipeOut port map (ok1 => ok1, ok2 => ok2, ep_addr => x"A5", ep_datain => okPipe_DataForPC, ep_read => okPipeReadRequest);
+    okPipeToPC : okPipeOut port map (ok1 => ok1, ok2 => ok2s(3*17-1 downto 2*17 ), ep_addr => x"A5", ep_datain => okPipe_DataForPC, ep_read => okPipeReadRequest);
     
     --Wire In for Control Signals (Address: 0x05)
     --Bit 0: LA Reset Signal (Active High)
@@ -116,15 +127,16 @@ BEGIN
     
     --Trigger In to start the Sampling (Address: 0x55)
     --Bit 0: Start Sampling
-    okTriggerForSampling : okTriggerIn port map (ok1 => ok1, ep_addr => x"55", ep_clk => CLK, ep_trigger => okTriggerIn_StartSignal);
+    okTriggerInForSampling : okTriggerIn port map (ok1 => ok1, ep_addr => x"55", ep_clk => CLK, ep_trigger => okTriggerIn_StartSignal);
+    
+    --Trigger Out to flag we are done with the Sampling (Address: 0x6A)
+    --Bit 0: Completed Sampling
+    okTriggerOutForSampling : okTriggerOut port map (ok1 => ok1, ok2 => ok2s( 2*17-1 downto 1*17 ), ep_addr => x"6A", ep_clk => CLK, ep_trigger => okTriggerOut_CompletedSignal);
     
     --Wire Out for Status Signals (Address: 0x25)
     --Bit 0: Sampling Completed
     --Bit 1-10: Number of Elements in FIFO
-    
-    --Map Unused bits
-    okWireOut_StatusSignals(15 downto 11) <= (others => '0');
-    okStatusSignalsToPC : okWireOut port map (ok1 => ok1, ok2 => ok2, ep_addr => x"25", ep_datain => okWireOut_StatusSignals);
+    okStatusSignalsToPC : okWireOut port map (ok1 => ok1, ok2 => ok2s( 1*17-1 downto 0*17 ), ep_addr => x"25", ep_datain => okWireOut_StatusSignals);
     
     --Main Senior Design Module Initalization
     Logic_Analyzer : logic_analyser generic map (n_of_inputs => 4, b_width => 4, fifo_mem_size => FIFO_DATA_DEPTH)
@@ -137,7 +149,7 @@ BEGIN
                                                 fifo_remaining_data => fifoNumOfElements);
                                                 
     --LA Test Unit Initalization
-    
+    Test_Unit : UpCounter_4bit_AsyncReset port map (Clock => LA_Sampiling_Clock, Reset => LA_CU_Reset, Q => LA_Test_Signals);
     
     --Control Module Unit Initalization
     Control_Unit : EECS_542_Control_Unit port map(FPGA_CLK_100MHz => CLK,
@@ -145,6 +157,7 @@ BEGIN
                                                   START_SAMPILING_TRIGGER => LA_StartSampling,
                                                   CLK_SEL => LA_Sampling_Clock_Select,
                                                   LOCAL_RESET => LA_CU_Reset,
+                                                  SAMPILING_COMPLETED => LA_DoneSampling,
                                                   SAMPILING_CLK_OUT => LA_Sampiling_Clock);
                                                   
     --LED Mappings

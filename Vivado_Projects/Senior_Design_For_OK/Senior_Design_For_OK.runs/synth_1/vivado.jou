@@ -2,11 +2,11 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Mon Apr 17 20:13:22 2017
-# Process ID: 13104
-# Current directory: D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1
+# Start of session at: Tue Apr 18 11:54:54 2017
+# Process ID: 11332
+# Current directory: D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1
 # Command line: vivado.exe -log OK_BoardWrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source OK_BoardWrapper.tcl
-# Log file: D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1/OK_BoardWrapper.vds
-# Journal file: D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1\vivado.jou
+# Log file: D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1/OK_BoardWrapper.vds
+# Journal file: D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source OK_BoardWrapper.tcl -notrace

@@ -10,15 +10,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
-      <Cursor1Time time="151292000fs"></Cursor1Time>
+      <ZoomStartTime time="792527472fs"></ZoomStartTime>
+      <ZoomEndTime time="991327473fs"></ZoomEndTime>
+      <Cursor1Time time="923527000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="204"></NameColumnWidth>
-      <ValueColumnWidth column_width="59"></ValueColumnWidth>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="50"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="35" />
+   <WVObjectSize size="46" />
    <wvobject type="divider" fp_name="divider33">
       <obj_property name="label">Clocking</obj_property>
       <obj_property name="DisplayName">label</obj_property>
@@ -27,13 +27,13 @@
       <obj_property name="ElementShortName">Stimulus_Clock</obj_property>
       <obj_property name="ObjectShortName">Stimulus_Clock</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/Sampling_Clock" type="logic">
-      <obj_property name="ElementShortName">Sampling_Clock</obj_property>
-      <obj_property name="ObjectShortName">Sampling_Clock</obj_property>
-   </wvobject>
    <wvobject fp_name="/test_tb/USB_Clock" type="logic">
       <obj_property name="ElementShortName">USB_Clock</obj_property>
       <obj_property name="ObjectShortName">USB_Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/Sampiling_Clock" type="logic">
+      <obj_property name="ElementShortName">Sampiling_Clock</obj_property>
+      <obj_property name="ObjectShortName">Sampiling_Clock</obj_property>
    </wvobject>
    <wvobject type="divider" fp_name="divider34">
       <obj_property name="label">Resets</obj_property>
@@ -63,41 +63,13 @@
       <obj_property name="ElementShortName">MUX_SEL[2:0]</obj_property>
       <obj_property name="ObjectShortName">MUX_SEL[2:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/UUT/Clock_Module/CLK_OUT" type="logic">
-      <obj_property name="ElementShortName">CLK_OUT</obj_property>
-      <obj_property name="ObjectShortName">CLK_OUT</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test_tb/UUT/Clock_Module/CLK_OUT_INTERNAL" type="logic">
-      <obj_property name="ElementShortName">CLK_OUT_INTERNAL</obj_property>
-      <obj_property name="ObjectShortName">CLK_OUT_INTERNAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test_tb/UUT/Clock_Module/CLK_DIV_OUTPUTS" type="array">
-      <obj_property name="ElementShortName">CLK_DIV_OUTPUTS[7:0]</obj_property>
-      <obj_property name="ObjectShortName">CLK_DIV_OUTPUTS[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test_tb/UUT/Clock_Module/NOT_RESET" type="logic">
-      <obj_property name="ElementShortName">NOT_RESET</obj_property>
-      <obj_property name="ObjectShortName">NOT_RESET</obj_property>
-   </wvobject>
-   <wvobject type="divider" fp_name="divider225">
-      <obj_property name="label">8 to 1 Mux</obj_property>
-      <obj_property name="DisplayName">label</obj_property>
-   </wvobject>
    <wvobject fp_name="/test_tb/UUT/Clock_Module/MUX_8to1/Inputs" type="array">
       <obj_property name="ElementShortName">Inputs[7:0]</obj_property>
       <obj_property name="ObjectShortName">Inputs[7:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/UUT/Clock_Module/MUX_8to1/SelectIn" type="array">
-      <obj_property name="ElementShortName">SelectIn[2:0]</obj_property>
-      <obj_property name="ObjectShortName">SelectIn[2:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test_tb/UUT/Clock_Module/MUX_8to1/Enable" type="logic">
-      <obj_property name="ElementShortName">Enable</obj_property>
-      <obj_property name="ObjectShortName">Enable</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test_tb/UUT/Clock_Module/MUX_8to1/Output" type="logic">
-      <obj_property name="ElementShortName">Output</obj_property>
-      <obj_property name="ObjectShortName">Output</obj_property>
+   <wvobject fp_name="/test_tb/UUT/Clock_Module/CLK_OUT" type="logic">
+      <obj_property name="ElementShortName">CLK_OUT</obj_property>
+      <obj_property name="ObjectShortName">CLK_OUT</obj_property>
    </wvobject>
    <wvobject type="divider" fp_name="divider35">
       <obj_property name="label">Control Unit</obj_property>
@@ -119,9 +91,34 @@
       <obj_property name="ElementShortName">Local_Count</obj_property>
       <obj_property name="ObjectShortName">Local_Count</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/UUT/LOCAL_RESET_INTERNAL" type="logic">
-      <obj_property name="ElementShortName">LOCAL_RESET_INTERNAL</obj_property>
-      <obj_property name="ObjectShortName">LOCAL_RESET_INTERNAL</obj_property>
+   <wvobject fp_name="/test_tb/UUT/SAMPILING_COMPLETED" type="logic">
+      <obj_property name="ElementShortName">SAMPILING_COMPLETED</obj_property>
+      <obj_property name="ObjectShortName">SAMPILING_COMPLETED</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider196">
+      <obj_property name="label">Test Signal Generation</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/Test_Unit/Clock" type="logic">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/Test_Unit/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/Test_Unit/Count" type="array">
+      <obj_property name="ElementShortName">Count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/Test_Unit/Q" type="array">
+      <obj_property name="ElementShortName">Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/LA_Test_Signals" type="array">
+      <obj_property name="ElementShortName">LA_Test_Signals[3:0]</obj_property>
+      <obj_property name="ObjectShortName">LA_Test_Signals[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
    </wvobject>
    <wvobject type="divider" fp_name="divider37">
       <obj_property name="label">Logic Analyzer</obj_property>
@@ -147,16 +144,133 @@
       <obj_property name="ElementShortName">rst</obj_property>
       <obj_property name="ObjectShortName">rst</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/LA_Test_Signals" type="array">
-      <obj_property name="ElementShortName">LA_Test_Signals[3:0]</obj_property>
-      <obj_property name="ObjectShortName">LA_Test_Signals[3:0]</obj_property>
+   <wvobject fp_name="/test_tb/fifoNumOfElements" type="other">
+      <obj_property name="ElementShortName">fifoNumOfElements</obj_property>
+      <obj_property name="ObjectShortName">fifoNumOfElements</obj_property>
    </wvobject>
    <wvobject fp_name="/test_tb/LA_Data_Out" type="array">
       <obj_property name="ElementShortName">LA_Data_Out[15:0]</obj_property>
       <obj_property name="ObjectShortName">LA_Data_Out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/fifoNumOfElements" type="other">
-      <obj_property name="ElementShortName">fifoNumOfElements</obj_property>
-      <obj_property name="ObjectShortName">fifoNumOfElements</obj_property>
+   <wvobject fp_name="vbus1889" type="vbus">
+      <obj_property name="label">Data_Out_Byte 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/test_tb/LA_Data_Out[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus1880" type="vbus">
+      <obj_property name="label">Data_Out_Byte 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/test_tb/LA_Data_Out[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_tb/LA_Data_Out[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider293">
+      <obj_property name="label">FIFO Buffer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_buffer/fpga_clk" type="logic">
+      <obj_property name="ElementShortName">fpga_clk</obj_property>
+      <obj_property name="ObjectShortName">fpga_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_buffer/counter" type="other">
+      <obj_property name="ElementShortName">counter</obj_property>
+      <obj_property name="ObjectShortName">counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_buffer/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_buffer/buffer_memory" type="array">
+      <obj_property name="ElementShortName">buffer_memory[0:3][3:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_memory[0:3][3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider763">
+      <obj_property name="label">FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/write_address" type="other">
+      <obj_property name="ElementShortName">write_address</obj_property>
+      <obj_property name="ObjectShortName">write_address</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/read_address" type="other">
+      <obj_property name="ElementShortName">read_address</obj_property>
+      <obj_property name="ObjectShortName">read_address</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/fifo_mem" type="array">
+      <obj_property name="ElementShortName">fifo_mem[0:34][15:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_mem[0:34][15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
    </wvobject>
 </wave_config>
