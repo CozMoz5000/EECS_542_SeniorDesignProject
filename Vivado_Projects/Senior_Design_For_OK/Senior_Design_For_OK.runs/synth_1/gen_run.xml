@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a15tftg256-1" LaunchTime="1491577825">
-  <File Type="RDS-PROPCONSTRS" Name="OK_BoardWrapper_drc_synth.rpt"/>
+<GenRun Id="synth_1" LaunchPart="xc7a15tftg256-1" LaunchTime="1492478001">
   <File Type="PA-TCL" Name="OK_BoardWrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="OK_BoardWrapper_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="OK_BoardWrapper.vds"/>
   <File Type="RDS-UTIL" Name="OK_BoardWrapper_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="OK_BoardWrapper_utilization_synth.pb"/>
@@ -10,6 +10,32 @@
   <File Type="VDS-TIMING-PB" Name="OK_BoardWrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../VHDL Files/Basic_Gates.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../VHDL Files/Multiplexers.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL Entities/Clock_Divider.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Control_Unit/Control_Unit.srcs/sources_1/imports/VHDL Entities/Clock_Divider.vhd"/>
+        <Attr Name="ImportTime" Val="1492471149"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../VHDL Files/EECS_542_Clock_Block.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/imports/new/input_buffer.vhd">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Downloads/Senior_Design_Test/Senior_Design.srcs/sources_1/new/input_buffer.vhd"/>
@@ -37,6 +63,12 @@
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Downloads/Senior_Design_3/Senior_Design/Senior_Design.srcs/sources_1/new/clk_divider.vhd"/>
         <Attr Name="ImportTime" Val="1491573984"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../VHDL Files/EECS_542_Control_Unit.vhd">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -87,24 +119,6 @@
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../../EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd"/>
         <Attr Name="ImportTime" Val="1485294711"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/new/read_synchroniser.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Downloads/Senior_Design_Test/Senior_Design.srcs/sources_1/new/read_synchroniser.vhd"/>
-        <Attr Name="ImportTime" Val="1491322840"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/new/control_unit.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Downloads/Senior_Design_Test/Senior_Design.srcs/sources_1/new/control_unit.vhd"/>
-        <Attr Name="ImportTime" Val="1491322840"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>

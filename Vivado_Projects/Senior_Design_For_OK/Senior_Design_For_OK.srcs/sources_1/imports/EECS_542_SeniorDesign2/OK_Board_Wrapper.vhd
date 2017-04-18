@@ -44,7 +44,10 @@ ARCHITECTURE Structural OF OK_BoardWrapper IS
 	
 	--Control Signals
 	Signal LA_Reset : STD_LOGIC;   
+	Signal LA_Sampiling_Clock : STD_LOGIC;
+	Signal LA_CU_Reset : STD_LOGIC;
 	
+	--Componet Declarations
     Component logic_analyser is
         generic(   
             n_of_inputs                 : integer := 2;    --Number of inputs we are sampling
@@ -63,6 +66,15 @@ ARCHITECTURE Structural OF OK_BoardWrapper IS
             fifo_remaining_data         : out integer range 0 to fifo_mem_size          --keeps track of the the total number of data remaining in the FIFO (to be read). Updated everytime a read/write to the FIFO happens
         );
     end component;
+    
+    Component EECS_542_Control_Unit IS
+      PORT(FPGA_CLK_100MHz : IN STD_LOGIC;
+           GLOBAL_RESET : IN STD_LOGIC;
+           START_SAMPILING_TRIGGER : IN STD_LOGIC;
+           CLK_SEL : IN STD_LOGIC_VECTOR(2 downto 0);
+           LOCAL_RESET : OUT STD_LOGIC;
+           SAMPILING_CLK_OUT : OUT STD_LOGIC);
+    END Component;
 BEGIN
     --Required as per OK Firmware
     HI_MuxSel <= '0';
@@ -109,12 +121,15 @@ BEGIN
     --Wire Out for Status Signals (Address: 0x25)
     --Bit 0: Sampling Completed
     --Bit 1-10: Number of Elements in FIFO
+    
+    --Map Unused bits
+    okWireOut_StatusSignals(15 downto 11) <= (others => '0');
     okStatusSignalsToPC : okWireOut port map (ok1 => ok1, ok2 => ok2, ep_addr => x"25", ep_datain => okWireOut_StatusSignals);
     
     --Main Senior Design Module Initalization
     Logic_Analyzer : logic_analyser generic map (n_of_inputs => 4, b_width => 4, fifo_mem_size => FIFO_DATA_DEPTH)
-                                    port map (  rst => LA_Reset,
-                                                clk => CLK,
+                                    port map (  rst => LA_CU_Reset,
+                                                clk => LA_Sampiling_Clock,
                                                 usb_clk => USB_Clock,
                                                 read_en => okPipeReadRequest,
                                                 data_in => LA_Test_Signals,
@@ -123,5 +138,16 @@ BEGIN
                                                 
     --LA Test Unit Initalization
     
+    
+    --Control Module Unit Initalization
+    Control_Unit : EECS_542_Control_Unit port map(FPGA_CLK_100MHz => CLK,
+                                                  GLOBAL_RESET => LA_Reset,
+                                                  START_SAMPILING_TRIGGER => LA_StartSampling,
+                                                  CLK_SEL => LA_Sampling_Clock_Select,
+                                                  LOCAL_RESET => LA_CU_Reset,
+                                                  SAMPILING_CLK_OUT => LA_Sampiling_Clock);
+                                                  
+    --LED Mappings
+    LED_Internal <= fifoDataCount(9 downto 2);
 END Structural;
 ------------------------------------------------

@@ -1,0 +1,35 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 0264c5f5b9c849b4aca419beac6433d7 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_tb_behav xil_defaultlib.test_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1625] value in initialization depends on signal zero_buffer [D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:30]
+WARNING: [VRFC 10-1625] value in initialization depends on signal zero_data [D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:36]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.ANDGate [andgate_default]
+Compiling architecture behavioral of entity xil_defaultlib.ORGate [orgate_default]
+Compiling architecture struct of entity xil_defaultlib.Multiplexer_2to1 [multiplexer_2to1_default]
+Compiling architecture struct of entity xil_defaultlib.Multiplexer_4to1 [multiplexer_4to1_default]
+Compiling architecture struct of entity xil_defaultlib.Multiplexer_8to1 [multiplexer_8to1_default]
+Compiling architecture struct of entity xil_defaultlib.Clock_Divider [\Clock_Divider(divider=2)\]
+Compiling architecture struct of entity xil_defaultlib.Clock_Divider [\Clock_Divider(divider=3)\]
+Compiling architecture struct of entity xil_defaultlib.Clock_Divider [\Clock_Divider(divider=6)\]
+Compiling architecture struct of entity xil_defaultlib.Clock_Divider [\Clock_Divider(divider=11)\]
+Compiling architecture struct of entity xil_defaultlib.Clock_Divider [\Clock_Divider(divider=51)\]
+Compiling architecture struct of entity xil_defaultlib.Clock_Divider [\Clock_Divider(divider=101)\]
+Compiling architecture struct of entity xil_defaultlib.EECS_542_Clock_Block [eecs_542_clock_block_default]
+Compiling architecture struct of entity xil_defaultlib.EECS_542_Control_Unit [eecs_542_control_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.write_clk_generator [\write_clk_generator(n=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.input_buffer [\input_buffer(num_of_inputs=4,bu...]
+Compiling architecture behavioral of entity xil_defaultlib.FIFO [\FIFO(mem_size=1024,mem_width=16...]
+Compiling architecture behavioral of entity xil_defaultlib.logic_analyser [\logic_analyser(n_of_inputs=4,fi...]
+Compiling architecture behavior of entity xil_defaultlib.test_tb
+Built simulation snapshot test_tb_behav

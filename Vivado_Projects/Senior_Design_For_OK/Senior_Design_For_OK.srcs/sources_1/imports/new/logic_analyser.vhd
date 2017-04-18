@@ -122,7 +122,7 @@ u_fifo: FIFO generic map
                 fifo_write_clk => write_clk,
                 usb_read_clk => usb_clk,
                 read_en => read_en,
-                rst => rst,
+                rst => '0', --Leave at low now until I figure out a good way to do this (Austin, 4/17/17)
                 data_in => data_from_buffer,
                 data_out => data_out,
                 fifo_state => fifo_state,

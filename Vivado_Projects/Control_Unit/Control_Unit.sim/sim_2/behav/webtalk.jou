@@ -2,8 +2,8 @@
 # Webtalk v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Mon Apr 17 18:39:48 2017
-# Process ID: 2264
+# Start of session at: Mon Apr 17 21:39:27 2017
+# Process ID: 7356
 # Current directory: D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Control_Unit/Control_Unit.sim/sim_2/behav
 # Command line: wbtcv.exe -mode batch -source D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Control_Unit/Control_Unit.sim/sim_2/behav/xsim.dir/test_tb_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: D:/Documents/Git_Projects/EECS_542_SeniorDesignProject/Vivado_Projects/Control_Unit/Control_Unit.sim/sim_2/behav/webtalk.log

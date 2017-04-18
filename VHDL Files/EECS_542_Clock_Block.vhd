@@ -12,7 +12,7 @@ END ENTITY EECS_542_Clock_Block;
 
 ARCHITECTURE Struct OF EECS_542_Clock_Block IS
     --User Signals
-    Signal CLK_OUT_INTERNAL : STD_LOGIC;
+    Signal CLK_OUT_INTERNAL : STD_LOGIC := '0';
     Signal CLK_DIV_OUTPUTS : STD_LOGIC_VECTOR(7 downto 0);
     SIGNAL NOT_RESET : STD_LOGIC;
     
