@@ -55,7 +55,7 @@ begin
                END IF;
             WHEN SAMPILING =>              
                 --Chcek if we need to stop sampiling
-                IF (Local_Count = 100) THEN
+                IF (Local_Count = 160) THEN
                     --Head back to the IDLE STATE
                     state <= IDLE;
                     --Signal that we are done
