@@ -4,7 +4,7 @@ Jan 23 2017
 19:37:30
 D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/Basic_Gates.vhd,1456348881,vhdl,,,,andgate;inverter;norgate;orgate;xorgate,,,,,,,,
 D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Clock_Block.vhd,1492523430,vhdl,,,,eecs_542_clock_block,,,,,,,,
-D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Control_Unit.vhd,1492647660,vhdl,,,,eecs_542_control_unit,,,,,,,,
+D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Control_Unit.vhd,1492696300,vhdl,,,,eecs_542_control_unit,,,,,,,,
 D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/Multiplexers.vhd,1456350670,vhdl,,,,multiplexer_2to1;multiplexer_4to1;multiplexer_8to1,,,,,,,,
 D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/UpCounter_4bit_AsyncReset.vhd,1492646042,vhdl,,,,upcounter_4bit_asyncreset,,,,,,,,
 D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sim_1/imports/VHDL Files/TestBench.vhd,1492542303,vhdl,,,,test_tb,,,,,,,,

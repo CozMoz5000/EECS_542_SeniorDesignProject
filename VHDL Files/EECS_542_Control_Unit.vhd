@@ -70,9 +70,11 @@ begin
     
     PROCESS(SAMPILING_CLK_OUT_INTERNAL)
     BEGIN
-        IF rising_edge(SAMPILING_CLK_OUT_INTERNAL) AND (state = SAMPILING) THEN
-            --Incremnt the Counter
-            Local_Count <= Local_Count + 1;
+        IF (state = SAMPILING) THEN
+            IF rising_edge(SAMPILING_CLK_OUT_INTERNAL) THEN
+                --Incremnt the Counter
+                Local_Count <= Local_Count + 1;
+            END IF;
         ELSIF(state = IDLE) THEN
             Local_Count <= 0;
         END IF;

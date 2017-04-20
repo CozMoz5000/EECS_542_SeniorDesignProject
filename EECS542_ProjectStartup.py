@@ -30,7 +30,7 @@ Bitfile_Location = r'D:\Documents\GitHub\EECS_542_SeniorDesignProject\Vivado_Pro
 #Import Opal Kelly Libraries
 import ok
 import time
-from bitstring import BitArray
+from bitstring import BitArray, Bits
 
 #Print out the status messages
 print("EECS 542 FPGA Startup File")
@@ -110,7 +110,7 @@ for i in range(EC):
     #Get the byte
     b1 = buf[i]
     
-    print("Byte at index " + str(i) + " has a value of " + hex(b1))
+    #print("Byte at index " + str(i) + " has a value of " + hex(b1))
     
     #Get the low nibble
     lowN = b1 & 0xF
@@ -128,10 +128,10 @@ for i in range(EC):
     #print("C4 Sample: " + str(c4_Samp))
     
     #Append them to their arrays
-    #channel1_Bits.append(uint=c1_Samp, length=1)
-    #channel2_Bits.append(uint=c2_Samp, length=1)
-    #channel3_Bits.append(uint=c3_Samp, length=1)
-    #channel4_Bits.append(uint=c4_Samp, length=1)
+    channel1_Bits.append(Bits(uint=c1_Samp, length=1))
+    channel2_Bits.append(Bits(uint=c2_Samp, length=1))
+    channel3_Bits.append(Bits(uint=c3_Samp, length=1))
+    channel4_Bits.append(Bits(uint=c4_Samp, length=1))
     
     #Get the high Nibble
     highN = b1 >> 4
@@ -149,10 +149,10 @@ for i in range(EC):
     #print("C4 Sample: " + str(c4_Samp))
     
     #Append them to their arrays
-    #channel1_Bits.append(uint=c1_Samp, length=1)
-    #channel2_Bits.append(uint=c2_Samp, length=1)
-    #channel3_Bits.append(uint=c3_Samp, length=1)
-    #channel4_Bits.append(uint=c4_Samp, length=1)
+    channel1_Bits.append(Bits(uint=c1_Samp, length=1))
+    channel2_Bits.append(Bits(uint=c2_Samp, length=1))
+    channel3_Bits.append(Bits(uint=c3_Samp, length=1))
+    channel4_Bits.append(Bits(uint=c4_Samp, length=1))
         
 #Print out all of the bit strings
 print()

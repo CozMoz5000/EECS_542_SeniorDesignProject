@@ -27,10 +27,10 @@ read_vhdl -library xil_defaultlib {
   {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/Basic_Gates.vhd}
   {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/Multiplexers.vhd}
   {D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/VHDL Entities/Clock_Divider.vhd}
-  {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Clock_Block.vhd}
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd
+  {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Clock_Block.vhd}
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd
-  D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/clk_divider.vhd
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO_write_clk_generator.vhd
   {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/UpCounter_4bit_AsyncReset.vhd}
   {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Control_Unit.vhd}
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd
