@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a15tftg256-1" LaunchTime="1492534493">
-  <File Type="RDS-PROPCONSTRS" Name="OK_BoardWrapper_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="OK_BoardWrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="OK_BoardWrapper_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="OK_BoardWrapper.vds"/>
   <File Type="RDS-UTIL" Name="OK_BoardWrapper_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="OK_BoardWrapper_utilization_synth.pb"/>

@@ -34,7 +34,8 @@ architecture Behavioral of FIFO is
 type fifo_mem_type is array(0 to mem_size-1) of std_logic_vector(mem_width-1 downto 0);
 
 signal zero_data                                            : std_logic_vector(mem_width-1 downto 0) := (others => '0'); --a zero FIFO row
-signal write_address, read_address                          : integer range 0 to mem_size-1 := 0;   --address pointers for the FIFO
+signal write_address                                        : integer range 0 to mem_size-1 := mem_size-1;   -- write address pointers for the FIFO
+signal read_address                                         : integer range 0 to mem_size-1 := mem_size-1;       --read address pointers for the FIFO     
 signal fifo_mem                                             : fifo_mem_type := (others => zero_data);   --the fifo iteself (an array of vectors)
 signal master_write_controller, master_read_controller      : std_logic := '1'; --these signals become 0 once the FIFO terminates data-writes to itself and usb-reads from itself respectively
 signal effective_write_clk, effective_read_en               : std_logic; --same as write_clk and read_en, except that they are overridden by the declared master signals once they become 0
@@ -55,7 +56,7 @@ begin
             if(rst = '1') then
                 fifo_mem <= (others => zero_data);
             else 
-                if(rising_edge(effective_write_clk)) then
+                if(falling_edge(effective_write_clk)) then
                     fifo_mem(write_address) <= data_in;  
                 end if;
             end if;
@@ -102,7 +103,7 @@ begin
                 if(master_write_controller = '0' and (write_address = read_address)) then   --if the read pointer clashes with the write pointer and the write_controller flag is set to 0 (no more writes), we know we're done and the FIFO should come to a halt (no more reads)
                     master_read_controller <= '0';
                 elsif( abs(write_address - read_address) mod mem_size > 0 ) then  --only read after ensuring the read and write pointers are at least one apart
-                      read_address <= (read_address + 1) mod mem_size;
+                      read_address <= (read_address + 1) mod mem_size;	--(circularly) increment the read pointer.
                       total_reads <= total_reads + 1;
                 end if; 
                 --the other case would be that the read pointer reaches the write pointer even though the write_controller is not set to 0 yet. This would happen if reading is being done faster than writing (which is rare to happen). In such an event, the read pointer will simply wait where it is until the next cycle.

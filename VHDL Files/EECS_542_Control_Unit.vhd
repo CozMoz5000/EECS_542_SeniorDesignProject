@@ -19,6 +19,7 @@ ARCHITECTURE Struct OF EECS_542_Control_Unit IS
     Signal CLK_SEL_INTERNAL : STD_LOGIC_VECTOR(2 downto 0) :=  "000";
     Signal Local_Count : INTEGER := 0;
     Signal SAMPILING_COMPLETED_INTERNAL : STD_LOGIC := '0';
+    Signal SAMPILING_CLK_OUT_INTERNAL : STD_LOGIC := '0';
     
     --State Machine Definitions
     TYPE STATE_TYPE IS (IDLE, SAMPILING);
@@ -52,16 +53,11 @@ begin
                     --Move to the Sampiling state
                     state <= SAMPILING;
                END IF;
-            WHEN SAMPILING =>
-                --Incremnt the Counter
-                Local_Count <= Local_Count + 1;
-                
+            WHEN SAMPILING =>              
                 --Chcek if we need to stop sampiling
                 IF (Local_Count = 100) THEN
                     --Head back to the IDLE STATE
                     state <= IDLE;
-                    --Reset the count
-                    Local_Count <= 0;
                     --Signal that we are done
                     SAMPILING_COMPLETED_INTERNAL <= '1';
                 END IF;
@@ -70,7 +66,17 @@ begin
     END PROCESS;
     
     --Initalize the Clock Block
-    Clock_Module : EECS_542_Clock_Block port map (CLK_IN => FPGA_CLK_100MHz, RESET => LOCAL_RESET_INTERNAL, MUX_SEL => CLK_SEL_INTERNAL, CLK_OUT => SAMPILING_CLK_OUT);
+    Clock_Module : EECS_542_Clock_Block port map (CLK_IN => FPGA_CLK_100MHz, RESET => '0', MUX_SEL => CLK_SEL_INTERNAL, CLK_OUT => SAMPILING_CLK_OUT_INTERNAL);
+    
+    PROCESS(SAMPILING_CLK_OUT_INTERNAL)
+    BEGIN
+        IF rising_edge(SAMPILING_CLK_OUT_INTERNAL) AND (state = SAMPILING) THEN
+            --Incremnt the Counter
+            Local_Count <= Local_Count + 1;
+        ELSIF(state = IDLE) THEN
+            Local_Count <= 0;
+        END IF;
+    END PROCESS;
     
     --Process to handle the resets based on the states
     PROCESS(state)
@@ -88,5 +94,7 @@ begin
     --Map the internal reset to the output
     LOCAL_RESET <= LOCAL_RESET_INTERNAL;
     SAMPILING_COMPLETED <= SAMPILING_COMPLETED_INTERNAL;
+    
+    SAMPILING_CLK_OUT <= SAMPILING_CLK_OUT_INTERNAL WHEN (state = SAMPILING) ELSE '0';
 END ARCHITECTURE Struct;
 ------------------------------------------------

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a15tftg256-1" LaunchTime="1492534751">
-  <File Type="PWROPT-DRC" Name="OK_BoardWrapper_drc_pwropted.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="OK_BoardWrapper_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="OK_BoardWrapper_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR-RPX" Name="OK_BoardWrapper_power_routed.rpx"/>
   <File Type="PA-TCL" Name="OK_BoardWrapper.tcl"/>
-  <File Type="OPT-HWDEF" Name="OK_BoardWrapper.hwdef"/>
+  <File Type="INIT-TIMING" Name="OK_BoardWrapper_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="OK_BoardWrapper_methodology_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="OK_BoardWrapper_drc_pwropted.rpt"/>
   <File Type="RDI-RDI" Name="OK_BoardWrapper.vdi"/>
   <File Type="OPT-DCP" Name="OK_BoardWrapper_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="OK_BoardWrapper.hwdef"/>
   <File Type="OPT-DRC" Name="OK_BoardWrapper_drc_opted.rpt"/>
   <File Type="OPT-TIMING" Name="OK_BoardWrapper_timing_summary_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="OK_BoardWrapper_pwropt.dcp"/>
@@ -31,14 +31,14 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="OK_BoardWrapper_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="OK_BoardWrapper_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="OK_BoardWrapper_drc_routed.pb"/>
-  <File Type="BG-BIN" Name="OK_BoardWrapper.bin"/>
   <File Type="ROUTE-DRC-RPX" Name="OK_BoardWrapper_drc_routed.rpx"/>
-  <File Type="BG-DRC" Name="OK_BoardWrapper.drc"/>
+  <File Type="BG-BIN" Name="OK_BoardWrapper.bin"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="OK_BoardWrapper_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-MSK" Name="OK_BoardWrapper.msk"/>
+  <File Type="BG-DRC" Name="OK_BoardWrapper.drc"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="OK_BoardWrapper_methodology_drc_routed.rpx"/>
-  <File Type="BG-BGN" Name="OK_BoardWrapper.bgn"/>
+  <File Type="BITSTR-MSK" Name="OK_BoardWrapper.msk"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="OK_BoardWrapper_methodology_drc_routed.pb"/>
+  <File Type="BG-BGN" Name="OK_BoardWrapper.bgn"/>
   <File Type="ROUTE-PWR" Name="OK_BoardWrapper_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="OK_BoardWrapper_power_summary_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="OK_BoardWrapper_route_status.rpt"/>

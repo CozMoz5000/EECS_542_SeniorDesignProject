@@ -15,7 +15,7 @@ architecture Behavioral of UpCounter_4bit_AsyncReset is
 begin
     upcount : PROCESS(Clock)
 	BEGIN
-		IF rising_edge(Clock) THEN
+		IF falling_edge(Clock) THEN
 		  IF Reset = '1' THEN
 		      Count <= "0000";
 		  ELSE
