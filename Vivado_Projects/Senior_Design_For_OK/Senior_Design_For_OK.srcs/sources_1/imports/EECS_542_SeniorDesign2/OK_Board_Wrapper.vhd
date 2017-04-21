@@ -19,7 +19,7 @@ END OK_BoardWrapper;
 
 ARCHITECTURE Structural OF OK_BoardWrapper IS
     --Global Parameters
-    Constant FIFO_DATA_DEPTH : INTEGER := 1024;
+    Constant FIFO_DATA_DEPTH : INTEGER := 1200;
     Constant NUM_BITS_TO_REPRESENT_FIFO_DEPTH : INTEGER := 10;
     
     --Signal Declarations
