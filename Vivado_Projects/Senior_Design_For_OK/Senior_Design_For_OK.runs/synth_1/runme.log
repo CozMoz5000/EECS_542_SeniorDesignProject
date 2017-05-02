@@ -14,13 +14,13 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a15t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a15t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 16156 
+INFO: Helper process launched with PID 16864 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 287.055 ; gain = 77.449
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 288.434 ; gain = 79.016
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-1565] actual for formal port b is neither a static name nor a globally static expression [D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/Multiplexers.vhd:27]
 INFO: [Synth 8-638] synthesizing module 'OK_BoardWrapper' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:20]
-INFO: [Synth 8-3491] module 'okHost' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:16' bound to instance 'okHI' of component 'okHost' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:116]
+INFO: [Synth 8-3491] module 'okHost' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:16' bound to instance 'okHI' of component 'okHost' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:113]
 INFO: [Synth 8-638] synthesizing module 'okHost' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:28]
 INFO: [Synth 8-113] binding component instance 'hi_in0_bufg' to cell 'IBUFG' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:76]
 INFO: [Synth 8-113] binding component instance 'mmcm0' to cell 'MMCME2_BASE' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:78]
@@ -1581,10 +1581,10 @@ INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized258' (19#1) [D:
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized73' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized73' (19#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'okHost' (22#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:28]
-INFO: [Synth 8-3491] module 'okWireOR' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:151' bound to instance 'okWO' of component 'okWireOR' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:117]
+INFO: [Synth 8-3491] module 'okWireOR' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:151' bound to instance 'okWO' of component 'okWireOR' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:114]
 INFO: [Synth 8-638] synthesizing module 'okWireOR' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:160]
 INFO: [Synth 8-256] done synthesizing module 'okWireOR' (23#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okLibrary.vhd:160]
-INFO: [Synth 8-3491] module 'okPipeOut' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okPipeOut.v:18' bound to instance 'okPipeToPC' of component 'okPipeOut' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:121]
+INFO: [Synth 8-3491] module 'okPipeOut' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okPipeOut.v:18' bound to instance 'okPipeToPC' of component 'okPipeOut' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:118]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized74' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized74' (23#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized75' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
@@ -1627,7 +1627,7 @@ INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized90' [D:/Xilinx/Vivad
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized90' (23#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized91' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized91' (23#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
-INFO: [Synth 8-3491] module 'okWireIn' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireIn.v:18' bound to instance 'okControlSignalsFromPC' of component 'okWireIn' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:126]
+INFO: [Synth 8-3491] module 'okWireIn' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireIn.v:18' bound to instance 'okControlSignalsFromPC' of component 'okWireIn' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:123]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized92' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized92' (24#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized262' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
@@ -1636,7 +1636,7 @@ INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized263' [D:/Xilinx/Viva
 INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized263' (24#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20334]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized93' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized93' (24#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
-INFO: [Synth 8-3491] module 'okTriggerIn' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okTriggerIn.v:18' bound to instance 'okTriggerInForSampling' of component 'okTriggerIn' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:130]
+INFO: [Synth 8-3491] module 'okTriggerIn' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okTriggerIn.v:18' bound to instance 'okTriggerInForSampling' of component 'okTriggerIn' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:127]
 INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized20' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
 INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized20' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
 INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized21' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20168]
@@ -1805,7 +1805,7 @@ INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized152' [D:/Xilinx/Viva
 INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized152' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
 INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized153' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
 INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized153' (25#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
-INFO: [Synth 8-3491] module 'okTriggerOut' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okTriggerOut.v:18' bound to instance 'okTriggerOutForSampling' of component 'okTriggerOut' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
+INFO: [Synth 8-3491] module 'okTriggerOut' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okTriggerOut.v:18' bound to instance 'okTriggerOutForSampling' of component 'okTriggerOut' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
 INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized154' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
 INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized154' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
 INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized155' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
@@ -1980,7 +1980,7 @@ INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized202' [D:/Xilinx/Viva
 INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized202' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
 INFO: [Synth 8-638] synthesizing module 'FDCE__parameterized203' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
 INFO: [Synth 8-256] done synthesizing module 'FDCE__parameterized203' (26#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
-INFO: [Synth 8-3491] module 'okWireOut' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireOut.v:18' bound to instance 'okStatusSignalsToPC' of component 'okWireOut' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:139]
+INFO: [Synth 8-3491] module 'okWireOut' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireOut.v:18' bound to instance 'okStatusSignalsToPC' of component 'okWireOut' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:135]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized113' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized113' (27#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized114' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
@@ -2019,29 +2019,28 @@ INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized128' [D:/Xilinx/Viva
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized128' (27#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized129' [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
 INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized129' (27#1) [D:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
-INFO: [Synth 8-3491] module 'logic_analyser' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:6' bound to instance 'Logic_Analyzer' of component 'logic_analyser' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:142]
+INFO: [Synth 8-3491] module 'logic_analyser' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:6' bound to instance 'Logic_Analyzer' of component 'logic_analyser' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:138]
 INFO: [Synth 8-638] synthesizing module 'logic_analyser' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:26]
-INFO: [Synth 8-3491] module 'write_clk_generator' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO_write_clk_generator.vhd:8' bound to instance 'u_clk_gen' of component 'write_clk_generator' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:101]
-INFO: [Synth 8-638] synthesizing module 'write_clk_generator' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO_write_clk_generator.vhd:19]
-INFO: [Synth 8-256] done synthesizing module 'write_clk_generator' (29#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO_write_clk_generator.vhd:19]
-WARNING: [Synth 8-549] port width mismatch for port 'off_time_factor': port width = 5, actual width = 32 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:68]
-INFO: [Synth 8-3491] module 'input_buffer' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:13' bound to instance 'u_buffer' of component 'Input_Buffer' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:112]
+WARNING: [Synth 8-614] signal 'buffer_en' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:97]
+INFO: [Synth 8-3491] module 'write_clk_generator' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO_write_clk_generator.vhd:8' bound to instance 'u_clk_gen' of component 'write_clk_generator' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'write_clk_generator' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO_write_clk_generator.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'write_clk_generator' (29#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO_write_clk_generator.vhd:20]
+WARNING: [Synth 8-549] port width mismatch for port 'off_time_factor': port width = 5, actual width = 32 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:70]
+INFO: [Synth 8-3491] module 'input_buffer' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:13' bound to instance 'u_buffer' of component 'Input_Buffer' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:117]
 INFO: [Synth 8-638] synthesizing module 'input_buffer' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:31]
 WARNING: [Synth 8-614] signal 'buffer_en' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:44]
 WARNING: [Synth 8-614] signal 'zero_buffer' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:44]
-WARNING: [Synth 8-614] signal 'buffer_en' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:61]
 INFO: [Synth 8-256] done synthesizing module 'input_buffer' (30#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd:31]
-INFO: [Synth 8-3491] module 'FIFO' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:14' bound to instance 'u_fifo' of component 'FIFO' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:128]
-INFO: [Synth 8-638] synthesizing module 'FIFO' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:31]
-WARNING: [Synth 8-614] signal 'zero_data' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:54]
-WARNING: [Synth 8-614] signal 'fifo_mem' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:65]
-WARNING: [Synth 8-614] signal 'effective_read_en' is read in the process but is not in the sensitivity list [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:96]
-INFO: [Synth 8-256] done synthesizing module 'FIFO' (31#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:31]
+INFO: [Synth 8-3491] module 'FIFO' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:8' bound to instance 'u_fifo' of component 'FIFO' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:133]
+INFO: [Synth 8-638] synthesizing module 'FIFO' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:26]
+INFO: [Synth 8-3491] module 'bram_fifo' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1/.Xil/Vivado-12852-CozLaptop-Win10/realtime/bram_fifo_stub.vhdl:5' bound to instance 'b_fifo' of component 'bram_fifo' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'bram_fifo' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1/.Xil/Vivado-12852-CozLaptop-Win10/realtime/bram_fifo_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'FIFO' (31#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:26]
 INFO: [Synth 8-256] done synthesizing module 'logic_analyser' (32#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/logic_analyser.vhd:26]
-INFO: [Synth 8-3491] module 'UpCounter_4bit_AsyncReset' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/UpCounter_4bit_AsyncReset.vhd:7' bound to instance 'Test_Unit' of component 'UpCounter_4bit_AsyncReset' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:152]
+INFO: [Synth 8-3491] module 'UpCounter_4bit_AsyncReset' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/UpCounter_4bit_AsyncReset.vhd:7' bound to instance 'Test_Unit' of component 'UpCounter_4bit_AsyncReset' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:148]
 INFO: [Synth 8-638] synthesizing module 'UpCounter_4bit_AsyncReset' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/UpCounter_4bit_AsyncReset.vhd:13]
 INFO: [Synth 8-256] done synthesizing module 'UpCounter_4bit_AsyncReset' (33#1) [D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/UpCounter_4bit_AsyncReset.vhd:13]
-INFO: [Synth 8-3491] module 'EECS_542_Control_Unit' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Control_Unit.vhd:6' bound to instance 'Control_Unit' of component 'EECS_542_Control_Unit' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:155]
+INFO: [Synth 8-3491] module 'EECS_542_Control_Unit' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Control_Unit.vhd:6' bound to instance 'Control_Unit' of component 'EECS_542_Control_Unit' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:151]
 INFO: [Synth 8-638] synthesizing module 'EECS_542_Control_Unit' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Control_Unit.vhd:16]
 INFO: [Synth 8-3491] module 'EECS_542_Clock_Block' declared at 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Clock_Block.vhd:6' bound to instance 'Clock_Module' of component 'EECS_542_Clock_Block' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Control_Unit.vhd:69]
 INFO: [Synth 8-638] synthesizing module 'EECS_542_Clock_Block' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Clock_Block.vhd:13]
@@ -2191,7 +2190,7 @@ WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port prog_
 WARNING: [Synth 8-3331] design fifo_generator_v13_1_1 has unconnected port prog_full_thresh[1]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 384.754 ; gain = 175.148
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 335.578 ; gain = 126.160
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -2200,30 +2199,26 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[15] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[14] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[13] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[12] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[11] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[10] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[9] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[8] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[7] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[6] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[5] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[4] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[3] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[2] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[1] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:134]
-WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[15] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:139]
-WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[14] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:139]
-WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[13] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:139]
-WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[12] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:139]
-WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[11] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:139]
-WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[10] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:139]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[15] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[14] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[13] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[12] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[11] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[10] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[9] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[8] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[7] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[6] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[5] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[4] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[3] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[2] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okTriggerOutForSampling:ep_trigger[1] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:131]
+WARNING: [Synth 8-3295] tying undriven pin okStatusSignalsToPC:ep_datain[15] to constant 0 [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/EECS_542_SeniorDesign2/OK_Board_Wrapper.vhd:135]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 384.754 ; gain = 175.148
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 335.578 ; gain = 126.160
 ---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'bram_fifo' instantiated as 'Logic_Analyzer/u_fifo/b_fifo' [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd:50]
 INFO: [Netlist 29-17] Analyzing 109 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Device 21-403] Loading part xc7a15tftg256-1
@@ -2231,6 +2226,8 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
+Parsing XDC File [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1/.Xil/Vivado-12852-CozLaptop-Win10/dcp/bram_fifo_in_context.xdc] for cell 'Logic_Analyzer/u_fifo/b_fifo'
+Finished Parsing XDC File [D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1/.Xil/Vivado-12852-CozLaptop-Win10/dcp/bram_fifo_in_context.xdc] for cell 'Logic_Analyzer/u_fifo/b_fifo'
 Parsing XDC File [D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc]
 WARNING: [Vivado 12-4702] SLEW is not a supported property on input port(s). Setting is ignored. [D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc:22]
 WARNING: [Vivado 12-4702] SLEW is not a supported property on input port(s). Setting is ignored. [D:/Documents/GitHub/EECS_542_SeniorDesignProject/EECS542_OK_Board_Constraints.xdc:22]
@@ -2257,22 +2254,22 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM128X1S => RAM128X1S (RAMS64E, RAMS64E, MUXF7): 8 instances
   RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 4 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 698.617 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 629.770 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 698.617 ; gain = 489.012
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a15tftg256-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 698.617 ; gain = 489.012
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 698.617 ; gain = 489.012
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5545] ROM "clk_by_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
@@ -2281,126 +2278,21 @@ INFO: [Synth 8-5545] ROM "buffer_memory_reg[1]" won't be mapped to RAM because a
 INFO: [Synth 8-5545] ROM "buffer_memory_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "buffer_memory_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[0]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[1]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[2]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[3]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[4]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[5]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[6]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[7]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[8]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[9]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[10]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[11]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[12]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[13]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[14]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[15]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[16]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[17]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[18]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[19]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[20]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[21]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[22]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[23]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[24]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[25]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[26]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[27]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[28]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[29]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[30]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[31]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[32]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[33]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[34]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[35]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[36]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[37]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[38]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[39]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[40]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[41]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[42]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[43]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[44]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[45]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[46]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[47]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[48]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[49]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[50]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[51]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[52]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[53]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[54]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[55]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[56]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[57]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[58]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[59]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[60]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[61]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[62]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[63]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[64]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[65]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[66]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[67]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[68]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[69]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[70]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[71]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[72]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[73]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[74]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[75]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[76]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[77]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[78]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[79]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[80]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[81]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[82]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[83]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[84]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[85]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[86]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[87]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[88]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[89]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[90]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[91]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[92]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[93]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[94]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[95]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[96]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[97]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[98]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "fifo_mem_reg[99]" won't be mapped to RAM because it is too sparse
-INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-5544] ROM "clk_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "clk_out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "clk_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "clk_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_out" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5545] ROM "SAMPILING_COMPLETED_INTERNAL" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 698.617 ; gain = 489.012
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
-+------+---------------------+------------+----------+
-|      |RTL Partition        |Replication |Instances |
-+------+---------------------+------------+----------+
-|1     |okHost__GC0          |           1|      1159|
-|2     |FIFO__GB0            |           1|     31890|
-|3     |FIFO__GB1            |           1|      9894|
-|4     |FIFO__GB2            |           1|     13531|
-|5     |logic_analyser__GC0  |           1|      2577|
-|6     |OK_BoardWrapper__GC0 |           1|       773|
-+------+---------------------+------------+----------+
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -2428,36 +2320,52 @@ Start Cross Boundary and Area Optimization
 INFO: [Synth 8-5544] ROM "CLK_DIV_25MHz/clk_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "CLK_DIV_10MHz/clk_out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "CLK_DIV_5MHz/clk_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5545] ROM "u_clk_gen/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "u_clk_gen/clk_by_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "u_buffer/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "u_buffer/buffer_memory_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "u_buffer/buffer_memory_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "u_buffer/buffer_memory_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "u_buffer/buffer_memory_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "CLK_DIV_1MHz/clk_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "CLK_DIV_500KHz/clk_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "Logic_Analyzer/u_clk_gen/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Logic_Analyzer/u_clk_gen/clk_by_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Logic_Analyzer/u_buffer/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Logic_Analyzer/u_buffer/buffer_memory_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Logic_Analyzer/u_buffer/buffer_memory_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Logic_Analyzer/u_buffer/buffer_memory_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Logic_Analyzer/u_buffer/buffer_memory_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "Control_Unit/Clock_Module/CLK_DIV_500KHz/clk_out" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5545] ROM "Control_Unit/SAMPILING_COMPLETED_INTERNAL" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 WARNING: [Synth 8-3917] design OK_BoardWrapper has port HI_MuxSel driven by constant 0
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[1] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[2] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[5] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[6] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[7] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[8] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[9] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[10] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[11] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[12] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[13] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[14] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okTriggerOutForSampling/\ep_trigger0_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okStatusSignalsToPC/\wirehold_reg[10] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okStatusSignalsToPC/\wirehold_reg[11] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okStatusSignalsToPC/\wirehold_reg[12] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okStatusSignalsToPC/\wirehold_reg[13] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okStatusSignalsToPC/\wirehold_reg[14] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/okStatusSignalsToPC/\wirehold_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okTriggerOutForSampling/\ep_trigger0_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (okStatusSignalsToPC/\wirehold_reg[15] )
+WARNING: [Synth 8-3332] Sequential element (l008c72ad3b3ec61be52cde84a395c4fa_reg) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[10]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[11]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[12]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[13]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[14]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[15]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[4]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[5]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[6]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[7]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[8]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lab8c81cec3709c0416d0acf79f37f087_reg[9]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (okHI/delays[11].fdrein0) is unused and will be removed from module OK_BoardWrapper.
+WARNING: [Synth 8-3332] Sequential element (okHI/delays[12].fdrein0) is unused and will be removed from module OK_BoardWrapper.
+WARNING: [Synth 8-3332] Sequential element (okHI/delays[13].fdrein0) is unused and will be removed from module OK_BoardWrapper.
+WARNING: [Synth 8-3332] Sequential element (okHI/delays[14].fdrein0) is unused and will be removed from module OK_BoardWrapper.
+WARNING: [Synth 8-3332] Sequential element (okHI/delays[15].fdrein0) is unused and will be removed from module OK_BoardWrapper.
 WARNING: [Synth 8-3332] Sequential element (ep_datahold_reg[10]) is unused and will be removed from module okWireIn.
 WARNING: [Synth 8-3332] Sequential element (ep_datahold_reg[11]) is unused and will be removed from module okWireIn.
 WARNING: [Synth 8-3332] Sequential element (ep_datahold_reg[12]) is unused and will be removed from module okWireIn.
@@ -2540,40 +2448,16 @@ WARNING: [Synth 8-3332] Sequential element (trigff1_reg[4]) is unused and will b
 WARNING: [Synth 8-3332] Sequential element (trigff1_reg[5]) is unused and will be removed from module okTriggerIn.
 WARNING: [Synth 8-3332] Sequential element (trigff1_reg[6]) is unused and will be removed from module okTriggerIn.
 WARNING: [Synth 8-3332] Sequential element (trigff1_reg[7]) is unused and will be removed from module okTriggerIn.
-WARNING: [Synth 8-3332] Sequential element (trigff1_reg[8]) is unused and will be removed from module okTriggerIn.
-WARNING: [Synth 8-3332] Sequential element (trigff1_reg[9]) is unused and will be removed from module okTriggerIn.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[10]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[11]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[12]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[13]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[14]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[15]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[1]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[2]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[3]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[4]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[5]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[6]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[7]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[8]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (ep_trigger0_reg[9]) is unused and will be removed from module okTriggerOut.
-WARNING: [Synth 8-3332] Sequential element (wirehold_reg[10]) is unused and will be removed from module okWireOut.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:02 ; elapsed = 00:01:10 . Memory (MB): peak = 698.617 ; gain = 489.012
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
-+------+---------------------+------------+----------+
-|      |RTL Partition        |Replication |Instances |
-+------+---------------------+------------+----------+
-|1     |okHost__GC0          |           1|      1111|
-|2     |FIFO__GB0            |           1|     31873|
-|3     |FIFO__GB1            |           1|      5806|
-|4     |FIFO__GB2            |           1|      3895|
-|5     |logic_analyser__GC0  |           1|       257|
-|6     |OK_BoardWrapper__GC0 |           1|       432|
-+------+---------------------+------------+----------+
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
@@ -2581,28 +2465,22 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:20 . Memory (MB): peak = 698.617 ; gain = 489.012
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:16 ; elapsed = 00:01:23 . Memory (MB): peak = 706.246 ; gain = 496.641
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
-+------+---------------------+------------+----------+
-|      |RTL Partition        |Replication |Instances |
-+------+---------------------+------------+----------+
-|1     |okHost__GC0          |           1|      1111|
-|2     |FIFO__GB0            |           1|     31873|
-|3     |FIFO__GB1            |           1|      5806|
-|4     |FIFO__GB2            |           1|      3895|
-|5     |logic_analyser__GC0  |           1|       257|
-|6     |OK_BoardWrapper__GC0 |           1|       432|
-+------+---------------------+------------+----------+
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:27 ; elapsed = 00:01:35 . Memory (MB): peak = 765.945 ; gain = 556.340
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2626,7 +2504,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:31 ; elapsed = 00:01:39 . Memory (MB): peak = 765.945 ; gain = 556.340
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -2639,7 +2517,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:31 ; elapsed = 00:01:39 . Memory (MB): peak = 765.945 ; gain = 556.340
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2651,76 +2529,76 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:34 ; elapsed = 00:01:42 . Memory (MB): peak = 765.945 ; gain = 556.340
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:34 ; elapsed = 00:01:42 . Memory (MB): peak = 765.945 ; gain = 556.340
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:35 ; elapsed = 00:01:43 . Memory (MB): peak = 765.945 ; gain = 556.340
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:35 ; elapsed = 00:01:43 . Memory (MB): peak = 765.945 ; gain = 556.340
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
 
 Report BlackBoxes: 
-+-+--------------+----------+
-| |BlackBox name |Instances |
-+-+--------------+----------+
-+-+--------------+----------+
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |bram_fifo     |         1|
++------+--------------+----------+
 
 Report Cell Usage: 
-+------+------------+------+
-|      |Cell        |Count |
-+------+------------+------+
-|1     |BUFG        |     6|
-|2     |CARRY4      |    61|
-|3     |DNA_PORT    |     1|
-|4     |LUT1        |   196|
-|5     |LUT2        |   207|
-|6     |LUT3        |   140|
-|7     |LUT4        |   253|
-|8     |LUT5        |   262|
-|9     |LUT6        |  6631|
-|10    |LUT6_2      |    50|
-|11    |MMCME2_BASE |     1|
-|12    |MUXF7       |  2545|
-|13    |MUXF8       |  1232|
-|14    |RAM128X1S   |     8|
-|15    |RAM32M      |     4|
-|16    |RAMB18E1    |     1|
-|17    |RAMB18E1_1  |     1|
-|18    |FDCE        |   551|
-|19    |FDPE        |    44|
-|20    |FDRE        | 19818|
-|21    |IBUF        |     8|
-|22    |IBUFG       |     1|
-|23    |IOBUF       |    17|
-|24    |OBUF        |     3|
-|25    |OBUFT       |     8|
-+------+------------+------+
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |bram_fifo_bbox |     1|
+|2     |BUFG           |     5|
+|3     |CARRY4         |    50|
+|4     |DNA_PORT       |     1|
+|5     |LUT1           |   145|
+|6     |LUT2           |    49|
+|7     |LUT3           |    69|
+|8     |LUT4           |   160|
+|9     |LUT5           |    86|
+|10    |LUT6           |   319|
+|11    |LUT6_2         |    50|
+|12    |MMCME2_BASE    |     1|
+|13    |MUXF7          |     1|
+|14    |RAM128X1S      |     8|
+|15    |RAM32M         |     4|
+|16    |RAMB18E1       |     1|
+|17    |RAMB18E1_1     |     1|
+|18    |FDCE           |   247|
+|19    |FDPE           |    44|
+|20    |FDRE           |   437|
+|21    |IBUF           |     8|
+|22    |IBUFG          |     1|
+|23    |IOBUF          |    17|
+|24    |OBUF           |     3|
+|25    |OBUFT          |     8|
++------+---------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:35 ; elapsed = 00:01:43 . Memory (MB): peak = 765.945 ; gain = 556.340
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 629.770 ; gain = 420.352
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 135 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:15 ; elapsed = 00:01:31 . Memory (MB): peak = 765.945 ; gain = 234.969
-Synthesis Optimization Complete : Time (s): cpu = 00:01:35 ; elapsed = 00:01:43 . Memory (MB): peak = 765.945 ; gain = 556.340
+Synthesis finished with 0 errors, 0 critical warnings and 655 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 629.770 ; gain = 119.223
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 629.770 ; gain = 420.352
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 152 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 141 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-WARNING: [Netlist 29-101] Netlist 'OK_BoardWrapper' is not ideal for floorplanning, since the cellview 'FIFO' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
@@ -2733,9 +2611,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-2240 Infos, 243 Warnings, 0 Critical Warnings and 0 Errors encountered.
+2141 Infos, 235 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:41 ; elapsed = 00:01:47 . Memory (MB): peak = 765.945 ; gain = 556.340
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 629.770 ; gain = 420.352
 INFO: [Common 17-1381] The checkpoint 'D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.runs/synth_1/OK_BoardWrapper.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.193 . Memory (MB): peak = 765.945 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 21 10:11:50 2017...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 629.770 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 25 14:29:59 2017...

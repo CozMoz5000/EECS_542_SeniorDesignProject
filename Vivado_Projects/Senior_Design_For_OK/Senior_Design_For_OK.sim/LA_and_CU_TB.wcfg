@@ -5,6 +5,7 @@
    <db_ref_list>
       <db_ref path="test_tb_behav.wdb" id="1">
          <top_modules>
+            <top_module name="glbl" />
             <top_module name="test_tb" />
          </top_modules>
       </db_ref>
@@ -18,7 +19,7 @@
       <NameColumnWidth column_width="203"></NameColumnWidth>
       <ValueColumnWidth column_width="50"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="48" />
+   <WVObjectSize size="53" />
    <wvobject type="divider" fp_name="divider33">
       <obj_property name="label">Clocking</obj_property>
       <obj_property name="DisplayName">label</obj_property>
@@ -144,9 +145,9 @@
       <obj_property name="ElementShortName">rst</obj_property>
       <obj_property name="ObjectShortName">rst</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/fifoNumOfElements" type="other">
-      <obj_property name="ElementShortName">fifoNumOfElements</obj_property>
-      <obj_property name="ObjectShortName">fifoNumOfElements</obj_property>
+   <wvobject fp_name="/test_tb/fifoNumOfElements" type="array">
+      <obj_property name="ElementShortName">fifoNumOfElements[14:0]</obj_property>
+      <obj_property name="ObjectShortName">fifoNumOfElements[14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/test_tb/LA_Data_Out" type="array">
       <obj_property name="ElementShortName">LA_Data_Out[15:0]</obj_property>
@@ -259,25 +260,44 @@
       <obj_property name="label">FIFO</obj_property>
       <obj_property name="DisplayName">label</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/UUT1/u_fifo/fifo_write_clk" type="logic">
-      <obj_property name="ElementShortName">fifo_write_clk</obj_property>
-      <obj_property name="ObjectShortName">fifo_write_clk</obj_property>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/b_fifo/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/UUT1/u_fifo/data_in" type="array">
-      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
-      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/b_fifo/wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/UUT1/u_fifo/write_address" type="other">
-      <obj_property name="ElementShortName">write_address</obj_property>
-      <obj_property name="ObjectShortName">write_address</obj_property>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/b_fifo/rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/UUT1/u_fifo/read_address" type="other">
-      <obj_property name="ElementShortName">read_address</obj_property>
-      <obj_property name="ObjectShortName">read_address</obj_property>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/b_fifo/din" type="array">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_tb/UUT1/u_fifo/fifo_mem" type="array">
-      <obj_property name="ElementShortName">fifo_mem[0:34][15:0]</obj_property>
-      <obj_property name="ObjectShortName">fifo_mem[0:34][15:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/b_fifo/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/b_fifo/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/b_fifo/dout" type="array">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/b_fifo/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/b_fifo/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_tb/UUT1/u_fifo/b_fifo/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[14:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[14:0]</obj_property>
    </wvobject>
 </wave_config>

@@ -20,7 +20,7 @@ END OK_BoardWrapper;
 ARCHITECTURE Structural OF OK_BoardWrapper IS
     --Global Parameters
     Constant FIFO_DATA_DEPTH : INTEGER := 1200;
-    Constant NUM_BITS_TO_REPRESENT_FIFO_DEPTH : INTEGER := 10;
+    Constant NUM_BITS_TO_REPRESENT_FIFO_DEPTH : INTEGER := 15;
     
     --Signal Declarations
     Signal LED_Internal : STD_LOGIC_VECTOR(7 downto 0);
@@ -28,7 +28,6 @@ ARCHITECTURE Structural OF OK_BoardWrapper IS
     Signal ok1 : STD_LOGIC_VECTOR(30 downto 0);
 	Signal ok2 : STD_LOGIC_VECTOR(16 downto 0);
 	Signal ok2s : STD_LOGIC_VECTOR(17*3-1 downto 0);
-	Signal fifoNumOfElements : INTEGER range 0 to FIFO_DATA_DEPTH;
 	
 	--User Signals
 	Signal okPipeReadRequest : STD_LOGIC;
@@ -52,11 +51,12 @@ ARCHITECTURE Structural OF OK_BoardWrapper IS
 	--Componet Declarations
     Component logic_analyser is
         generic(   
-            n_of_inputs                 : integer := 2;    --Number of inputs we are sampling
+            n_of_inputs                 : integer := 4;    --Number of inputs we are sampling
             b_width                     : integer := 4;    --Number of samples per input that the buffer can store. 
                                                            --This number times n_of_inputs is the total data that a FIFO row will contain.
-            fifo_mem_size               : integer := 8     --Depth of the FIFO
+            fifo_mem_size               : integer := 32768    --Depth of the FIFO
         );
+    
         Port ( 
             rst                         : in std_logic;     --an asynchronous master reset signal ... clears all data in the entire circuit
             clk                         : in std_logic;     --The FPGA sampling clock (determined by the control unit)
@@ -64,10 +64,10 @@ ARCHITECTURE Structural OF OK_BoardWrapper IS
             read_en                     : in std_logic;     --The read enable signal supplied by the USB. The USB reads from a FIFO row when this is high and we are on the rising edge of the usb clock
             data_in                     : in std_logic_vector(n_of_inputs-1 downto 0);  --a vector of data coming from external circuits - (1 bit per circuit-node)
             data_out                    : out std_logic_vector(b_width*n_of_inputs-1 downto 0); --the vector contained in a FIFO row, given to the USB at every read. 
-                                                                                                --The format is: [ckt1_sample1, ckt1_sample2, ... ckt1_sampleN , ckt2_sample1, ... ckt2_sampleN, ...]
-            fifo_remaining_data         : out integer range 0 to fifo_mem_size          --keeps track of the the total number of data remaining in the FIFO (to be read). Updated everytime a read/write to the FIFO happens
+                                                                                                --The format is: [ckt1_sample1 , ... , cktN_sample1 , ... , ckt1_sample2, ... cktN_sample2, ...]
+            fifo_remaining_data         : out std_logic_vector(14 downto 0)          --keeps track of the the total number of data remaining in the FIFO (to be read). Updated everytime a read/write to the FIFO happens
         );
-    end component;
+    end Component;
     
     Component EECS_542_Control_Unit IS
       PORT(FPGA_CLK_100MHz : IN STD_LOGIC;
@@ -93,11 +93,8 @@ BEGIN
     LA_Sampling_Clock_Select <= okWireIn_ControlSignals(3 downto 1);
     LA_StartSampling <= okTriggerIn_StartSignal(0);
     
-    --Map the integer of remaining FIFO elements to a STD_LOGIC_VECTOR
-    fifoDataCount <= std_logic_vector(to_unsigned(fifoNumOfElements, fifoDataCount'length));
-    
     --Map the output signals of the LA to the Wire Out bits
-    okWireOut_StatusSignals(9 downto 0) <= fifoDataCount;
+    okWireOut_StatusSignals(14 downto 0) <= fifoDataCount;
     
     --Map the sampling completed signal from the control unit to the Trigger Out
     okTriggerOut_CompletedSignal(0) <= LA_DoneSampling;
@@ -134,8 +131,7 @@ BEGIN
     okTriggerOutForSampling : okTriggerOut port map (ok1 => ok1, ok2 => ok2s( 2*17-1 downto 1*17 ), ep_addr => x"6A", ep_clk => CLK, ep_trigger => okTriggerOut_CompletedSignal);
     
     --Wire Out for Status Signals (Address: 0x25)
-    --Bit 0: Sampling Completed
-    --Bit 1-10: Number of Elements in FIFO
+    --Bit 0-14: Number of Elements in FIFO
     okStatusSignalsToPC : okWireOut port map (ok1 => ok1, ok2 => ok2s( 1*17-1 downto 0*17 ), ep_addr => x"25", ep_datain => okWireOut_StatusSignals);
     
     --Main Senior Design Module Initalization
@@ -146,7 +142,7 @@ BEGIN
                                                 read_en => okPipeReadRequest,
                                                 data_in => LA_Test_Signals,
                                                 data_out => okPipe_DataForPC,
-                                                fifo_remaining_data => fifoNumOfElements);
+                                                fifo_remaining_data => fifoDataCount);
                                                 
     --LA Test Unit Initalization
     Test_Unit : UpCounter_4bit_AsyncReset port map (Clock => LA_Sampiling_Clock, Reset => LA_CU_Reset, Q => LA_Test_Signals);
@@ -161,6 +157,6 @@ BEGIN
                                                   SAMPILING_CLK_OUT => LA_Sampiling_Clock);
                                                   
     --LED Mappings
-    LED_Internal <= fifoDataCount(9 downto 2);
+    LED_Internal <= fifoDataCount(7 downto 0);
 END Structural;
 ------------------------------------------------

@@ -25,7 +25,7 @@ Error_Code_Dict = {0:"No Error",
 #
 # Variable Declarations
 #
-Bitfile_Location = r'D:\Documents\GitHub\EECS_542_SeniorDesignProject\Vivado_Projects\Senior_Design_For_OK\Senior_Design_For_OK.runs\impl_1\OK_BoardWrapper.bit'
+Bitfile_Location = r'D:\Documents\GitHub\Test1\EECS_542_SeniorDesignProject\Vivado_Projects\Senior_Design_For_OK\Senior_Design_For_OK.runs\impl_1\OK_BoardWrapper.bit'
 
 #Import Opal Kelly Libraries
 import ok
@@ -62,6 +62,9 @@ print("Attempting to program device with Bitfile located at: " + Bitfile_Locatio
 EC = dev.ConfigureFPGA(Bitfile_Location) 
 print("Device programmed with Error Code: " + Error_Code_Dict[EC])
 print()
+
+#Reset the device
+
 
 #Wait before we start sampiling
 print("Ready to start sampiling, press any key to begin!")

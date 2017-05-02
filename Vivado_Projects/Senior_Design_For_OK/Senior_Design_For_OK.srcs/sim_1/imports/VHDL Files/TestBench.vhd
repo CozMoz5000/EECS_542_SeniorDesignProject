@@ -27,10 +27,10 @@ ARCHITECTURE behavior OF test_tb IS
     
     Component logic_analyser is
         generic(   
-            n_of_inputs                 : integer := 2;    --Number of inputs we are sampling
+            n_of_inputs                 : integer := 4;    --Number of inputs we are sampling
             b_width                     : integer := 4;    --Number of samples per input that the buffer can store. 
                                                            --This number times n_of_inputs is the total data that a FIFO row will contain.
-            fifo_mem_size               : integer := 8     --Depth of the FIFO
+            fifo_mem_size               : integer := 32768    --Depth of the FIFO
         );
     
         Port ( 
@@ -40,8 +40,8 @@ ARCHITECTURE behavior OF test_tb IS
             read_en                     : in std_logic;     --The read enable signal supplied by the USB. The USB reads from a FIFO row when this is high and we are on the rising edge of the usb clock
             data_in                     : in std_logic_vector(n_of_inputs-1 downto 0);  --a vector of data coming from external circuits - (1 bit per circuit-node)
             data_out                    : out std_logic_vector(b_width*n_of_inputs-1 downto 0); --the vector contained in a FIFO row, given to the USB at every read. 
-                                                                                                --The format is: [ckt1_sample1, ckt1_sample2, ... ckt1_sampleN , ckt2_sample1, ... ckt2_sampleN, ...]
-            fifo_remaining_data         : out integer range 0 to fifo_mem_size          --keeps track of the the total number of data remaining in the FIFO (to be read). Updated everytime a read/write to the FIFO happens
+                                                                                                --The format is: [ckt1_sample1 , ... , cktN_sample1 , ... , ckt1_sample2, ... cktN_sample2, ...]
+            fifo_remaining_data         : out std_logic_vector(14 downto 0)          --keeps track of the the total number of data remaining in the FIFO (to be read). Updated everytime a read/write to the FIFO happens
         );
     end Component;
     
@@ -61,7 +61,7 @@ ARCHITECTURE behavior OF test_tb IS
     Constant NUM_BITS_TO_REPRESENT_FIFO_DEPTH : INTEGER := 10;
     
     --Signal Declarations
-    Signal fifoNumOfElements : INTEGER range 0 to FIFO_DATA_DEPTH;
+    Signal fifoNumOfElements : STD_LOGIC_VECTOR(14 downto 0);
 BEGIN
 	--Unit Under Test Module Declaration
     UUT : EECS_542_Control_Unit PORT MAP (FPGA_CLK_100MHz => Stimulus_Clock,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a15tftg256-1" LaunchTime="1492787395">
+<GenRun Id="synth_1" LaunchPart="xc7a15tftg256-1" LaunchTime="1493148564">
   <File Type="RDS-PROPCONSTRS" Name="OK_BoardWrapper_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="OK_BoardWrapper.tcl"/>
   <File Type="RDS-RDS" Name="OK_BoardWrapper.vds"/>
@@ -30,6 +30,14 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/FIFO.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Downloads/Senior_Design_3/Senior_Design/Senior_Design.srcs/sources_1/new/FIFO.vhd"/>
+        <Attr Name="ImportTime" Val="1491573984"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/imports/new/input_buffer.vhd">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Downloads/Senior_Design_Test/Senior_Design.srcs/sources_1/new/input_buffer.vhd"/>
@@ -48,14 +56,6 @@
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/new/FIFO.vhd">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Downloads/Senior_Design_3/Senior_Design/Senior_Design.srcs/sources_1/new/FIFO.vhd"/>
-        <Attr Name="ImportTime" Val="1491573984"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/FIFO_write_clk_generator.vhd">
@@ -147,4 +147,5 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="bram_fifo"/>
 </GenRun>

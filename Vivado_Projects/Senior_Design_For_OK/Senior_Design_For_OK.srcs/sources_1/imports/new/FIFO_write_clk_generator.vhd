@@ -10,9 +10,10 @@ entity write_clk_generator is
         N : integer     --N is the factor by which we slow down the FIFO write clock relative to the FPGA sampling clock
     );
     port(
-        signal fpga_clk : in std_logic;
-        signal fifo_write_clk : out std_logic;
-        signal off_time_factor : out integer range 1 to 31 --Used by the read synchroniser module, which is disabled, hence this is irrelevant
+        signal fifo_write_clk_en     : in std_logic;
+        signal fpga_clk              : in std_logic;
+        signal fifo_write_clk        : out std_logic;
+        signal off_time_factor       : out integer range 1 to 31 --Used by the read synchroniser module, which is disabled, hence this is irrelevant
     );
 end write_clk_generator;
 
@@ -38,7 +39,9 @@ begin
 end process;
 
 
-fifo_write_clk <= fpga_clk when N < 2 else clk_by_N;
+fifo_write_clk <= '0'       when fifo_write_clk_en = '0' else
+                  fpga_clk  when N < 2 else 
+                  clk_by_N;
 off_time_factor <= N;
 
 end Behavioral;

@@ -11,10 +11,13 @@ set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_property webtalk.parent_dir D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.cache/wt [current_project]
 set_property parent.project_path D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.xpr [current_project]
+set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property ip_output_repo d:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
+add_files -quiet d:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/ip/bram_fifo_2/bram_fifo.dcp
+set_property used_in_implementation false [get_files d:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/ip/bram_fifo_2/bram_fifo.dcp]
 read_verilog -library xil_defaultlib {
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okCoreHarness.v
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/OK_Source_Files/okWireIn.v
@@ -27,9 +30,9 @@ read_vhdl -library xil_defaultlib {
   {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/Basic_Gates.vhd}
   {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/Multiplexers.vhd}
   {D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/VHDL Entities/Clock_Divider.vhd}
+  D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/input_buffer.vhd
   {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Clock_Block.vhd}
-  D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO.vhd
   D:/Documents/GitHub/EECS_542_SeniorDesignProject/Vivado_Projects/Senior_Design_For_OK/Senior_Design_For_OK.srcs/sources_1/imports/new/FIFO_write_clk_generator.vhd
   {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/UpCounter_4bit_AsyncReset.vhd}
   {D:/Documents/GitHub/EECS_542_SeniorDesignProject/VHDL Files/EECS_542_Control_Unit.vhd}

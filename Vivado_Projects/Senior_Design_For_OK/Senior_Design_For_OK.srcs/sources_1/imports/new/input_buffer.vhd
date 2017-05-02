@@ -56,21 +56,20 @@ begin
             end if;
         end if;
     end process;
-    
      --sends the content of the buffer to the FIFO.       
-    read_from_buffer: process(fpga_clk, rst)
-    begin
-        if(buffer_en = '1') then
-            if(rst = '1') then
-                data_out_temp <= (others => '0');
-            elsif(falling_edge(fpga_clk)) then   --send the whole content of the buffer to the fifo. The format is [ckt1_sample1 , cktN_sample1, ... , ckt1_sample2, ... cktN_sample2, ...]
-                for i in 0 to buffer_width-1 loop
-                    data_out_temp(num_of_inputs*(i+1)-1 downto num_of_inputs*i) <= buffer_memory(i);
-                end loop;
-            end if;
-        end if;      
-    end process;
+--    read_from_buffer: process(fifo_write_clk, rst)
+--    begin
+--        if(buffer_en = '1') then
+--            if(rst = '1') then
+--                data_out_temp <= (others => '0');
+--            elsif(falling_edge(fifo_write_clk)) then   --send the whole content of the buffer to the fifo. The format is [ckt1_sample1 , cktN_sample1, ... , ckt1_sample2, ... cktN_sample2, ...]
+--                for i in 0 to buffer_width-1 loop
+--                    data_out_temp(num_of_inputs*(i+1)-1 downto num_of_inputs*i) <= buffer_memory(i);
+--                end loop;
+--            end if;
+--        end if;      
+--    end process;
     
-    data_out <= data_out_temp;
+    data_out <= buffer_memory(3) & buffer_memory(2) & buffer_memory(1) & buffer_memory(0);
     
 end Behavioral;
